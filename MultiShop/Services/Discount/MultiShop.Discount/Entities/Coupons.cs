@@ -1,7 +1,10 @@
-﻿namespace MultiShop.Discount.Entities
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace MultiShop.Discount.Entities
 {
-    public class Coupon
+    public class Coupons
     {
+        [Key]
         public int CouponId { get; set; }
         public string Code { get; set; }
         public int Rate{ get; set; }
