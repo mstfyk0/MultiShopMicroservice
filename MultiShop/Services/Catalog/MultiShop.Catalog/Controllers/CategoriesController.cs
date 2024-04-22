@@ -15,35 +15,35 @@ namespace MultiShop.Catalog.Controllers
             _categoryService = categoryService;
         }
 
-        [HttpGet]
+        [HttpGet("getAllCategory")]
         public  async Task<IActionResult> CategoryList()
         {
             var values = await _categoryService.GetAllCategoryAsync();
             return Ok(values);  
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("getCategoryById/{id}")]
         public async Task<IActionResult> GetCategoryById(string id)
         {
             var values = await _categoryService.GetByIdCategoryAsync(id);
             return Ok(values);
         }
 
-        [HttpPost]
+        [HttpPost("createCategory")]
         public async Task<IActionResult> CreateCategory(CreateCategoryDto createCategoryDto)
         {
             await _categoryService.CreateCategoryAsync(createCategoryDto);
             return Ok("Kategori başarıyla eklendi.");
         }
 
-        [HttpDelete]
+        [HttpDelete("deleteCategory")]
         public async Task<IActionResult> DeteleCategory(string id )
         {
             await _categoryService.DeleteCategoryAsync(id);
             return Ok("Kategori başarıyla silindi.");
         }
 
-        [HttpPut]
+        [HttpPut("updateCategory")]
         public async Task<IActionResult> UpdateCategory(UpdateCategoryDto updateCategoryDto )
         {
             await _categoryService.UpdateCategoryAsync(updateCategoryDto);
