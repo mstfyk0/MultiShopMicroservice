@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9CAC6F8F-1F7F-4404-91B4-7B60F02DE981}|Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\services\\catalog\\multishop.catalog\\services\\productservices\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CAC6F8F-1F7F-4404-91B4-7B60F02DE981}|Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj|solutionrelative:services\\catalog\\multishop.catalog\\services\\productservices\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CAC6F8F-1F7F-4404-91B4-7B60F02DE981}|Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\services\\catalog\\multishop.catalog\\services\\productservices\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CAC6F8F-1F7F-4404-91B4-7B60F02DE981}|Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj|solutionrelative:services\\catalog\\multishop.catalog\\services\\productservices\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CAC6F8F-1F7F-4404-91B4-7B60F02DE981}|Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\services\\catalog\\multishop.catalog\\services\\categoryservices\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CAC6F8F-1F7F-4404-91B4-7B60F02DE981}|Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj|solutionrelative:services\\catalog\\multishop.catalog\\services\\categoryservices\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CAC6F8F-1F7F-4404-91B4-7B60F02DE981}|Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\services\\catalog\\multishop.catalog\\services\\categoryservices\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CAC6F8F-1F7F-4404-91B4-7B60F02DE981}|Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj|solutionrelative:services\\catalog\\multishop.catalog\\services\\categoryservices\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9CAC6F8F-1F7F-4404-91B4-7B60F02DE981}|Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\services\\catalog\\multishop.catalog\\mapping\\generalmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9CAC6F8F-1F7F-4404-91B4-7B60F02DE981}|Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj|solutionrelative:services\\catalog\\multishop.catalog\\mapping\\generalmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +35,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Catalog\\MultiShop.Catalog\\Services\\ProductServices\\ProductService.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\MultiShop.Catalog\\Services\\ProductServices\\ProductService.cs",
+              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Catalog\\MultiShop.Catalog\\Services\\ProductServices\\ProductService.cs",
+              "RelativeToolTip": "Services\\Catalog\\MultiShop.Catalog\\Services\\ProductServices\\ProductService.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwBkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T14:55:47.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Catalog\\MultiShop.Catalog\\Services\\ProductServices\\IProductService.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\MultiShop.Catalog\\Services\\ProductServices\\IProductService.cs",
+              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Catalog\\MultiShop.Catalog\\Services\\ProductServices\\IProductService.cs",
+              "RelativeToolTip": "Services\\Catalog\\MultiShop.Catalog\\Services\\ProductServices\\IProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T14:55:24.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Catalog\\MultiShop.Catalog\\Services\\CategoryServices\\CategoryService.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\MultiShop.Catalog\\Services\\CategoryServices\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Catalog\\MultiShop.Catalog\\Services\\CategoryServices\\CategoryService.cs",
+              "RelativeToolTip": "Services\\Catalog\\MultiShop.Catalog\\Services\\CategoryServices\\CategoryService.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwDAAAAB4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T13:38:13.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Catalog\\MultiShop.Catalog\\Services\\CategoryServices\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\MultiShop.Catalog\\Services\\CategoryServices\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Catalog\\MultiShop.Catalog\\Services\\CategoryServices\\ICategoryService.cs",
+              "RelativeToolTip": "Services\\Catalog\\MultiShop.Catalog\\Services\\CategoryServices\\ICategoryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T13:33:56.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "GeneralMapping.cs",
               "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Catalog\\MultiShop.Catalog\\Mapping\\GeneralMapping.cs",
               "RelativeDocumentMoniker": "Services\\Catalog\\MultiShop.Catalog\\Mapping\\GeneralMapping.cs",
               "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Catalog\\MultiShop.Catalog\\Mapping\\GeneralMapping.cs",
               "RelativeToolTip": "Services\\Catalog\\MultiShop.Catalog\\Mapping\\GeneralMapping.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwCMAAAABAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwCMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-20T22:31:43.439Z",
               "EditorCaption": ""
