@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\CQRS\Handler\AddressHandler\" />
+    <Folder Include="Features\Meditor\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Services\Order\Core\MultiShop.Order.Domain\MultiShop.Order.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
