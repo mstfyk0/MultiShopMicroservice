@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{56A1C2D1-C72D-413F-B439-753D012FC7FC}|Serivces\\Order\\Core\\MulitShop.Order.Application\\MulitShop.Order.Application.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\serivces\\order\\core\\mulitshop.order.application\\features\\cqrs\\commands\\addresscommands\\createaddresscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56A1C2D1-C72D-413F-B439-753D012FC7FC}|Serivces\\Order\\Core\\MulitShop.Order.Application\\MulitShop.Order.Application.csproj|solutionrelative:serivces\\order\\core\\mulitshop.order.application\\features\\cqrs\\commands\\addresscommands\\createaddresscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56A1C2D1-C72D-413F-B439-753D012FC7FC}|Serivces\\Order\\Core\\MulitShop.Order.Application\\MulitShop.Order.Application.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\serivces\\order\\core\\mulitshop.order.application\\features\\cqrs\\handler\\addresshandler\\updateaddresscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A1C2D1-C72D-413F-B439-753D012FC7FC}|Serivces\\Order\\Core\\MulitShop.Order.Application\\MulitShop.Order.Application.csproj|solutionrelative:serivces\\order\\core\\mulitshop.order.application\\features\\cqrs\\handler\\addresshandler\\updateaddresscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A1C2D1-C72D-413F-B439-753D012FC7FC}|Serivces\\Order\\Core\\MulitShop.Order.Application\\MulitShop.Order.Application.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\serivces\\order\\core\\mulitshop.order.application\\features\\cqrs\\handler\\addresshandler\\getaddressbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A1C2D1-C72D-413F-B439-753D012FC7FC}|Serivces\\Order\\Core\\MulitShop.Order.Application\\MulitShop.Order.Application.csproj|solutionrelative:serivces\\order\\core\\mulitshop.order.application\\features\\cqrs\\handler\\addresshandler\\getaddressbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A1C2D1-C72D-413F-B439-753D012FC7FC}|Serivces\\Order\\Core\\MulitShop.Order.Application\\MulitShop.Order.Application.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\serivces\\order\\core\\mulitshop.order.application\\features\\cqrs\\handler\\addresshandler\\removeaddresscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A1C2D1-C72D-413F-B439-753D012FC7FC}|Serivces\\Order\\Core\\MulitShop.Order.Application\\MulitShop.Order.Application.csproj|solutionrelative:serivces\\order\\core\\mulitshop.order.application\\features\\cqrs\\handler\\addresshandler\\removeaddresscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A1C2D1-C72D-413F-B439-753D012FC7FC}|Serivces\\Order\\Core\\MulitShop.Order.Application\\MulitShop.Order.Application.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\serivces\\order\\core\\mulitshop.order.application\\features\\cqrs\\handler\\addresshandler\\getaddressqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A1C2D1-C72D-413F-B439-753D012FC7FC}|Serivces\\Order\\Core\\MulitShop.Order.Application\\MulitShop.Order.Application.csproj|solutionrelative:serivces\\order\\core\\mulitshop.order.application\\features\\cqrs\\handler\\addresshandler\\getaddressqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{611998F6-1239-48C9-AE3E-AA5E1DFA8F2B}|Services\\Order\\Core\\MultiShop.Order.Domain\\MultiShop.Order.Domain.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\services\\order\\core\\multishop.order.domain\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,19 +47,55 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CreateAddressCommand.cs",
-              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Serivces\\Order\\Core\\MulitShop.Order.Application\\Features\\CQRS\\Commands\\AddressCommands\\CreateAddressCommand.cs",
-              "RelativeDocumentMoniker": "Serivces\\Order\\Core\\MulitShop.Order.Application\\Features\\CQRS\\Commands\\AddressCommands\\CreateAddressCommand.cs",
-              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Serivces\\Order\\Core\\MulitShop.Order.Application\\Features\\CQRS\\Commands\\AddressCommands\\CreateAddressCommand.cs",
-              "RelativeToolTip": "Serivces\\Order\\Core\\MulitShop.Order.Application\\Features\\CQRS\\Commands\\AddressCommands\\CreateAddressCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Title": "UpdateAddressCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Serivces\\Order\\Core\\MulitShop.Order.Application\\Features\\CQRS\\Handler\\AddressHandler\\UpdateAddressCommandHandler.cs",
+              "RelativeDocumentMoniker": "Serivces\\Order\\Core\\MulitShop.Order.Application\\Features\\CQRS\\Handler\\AddressHandler\\UpdateAddressCommandHandler.cs",
+              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Serivces\\Order\\Core\\MulitShop.Order.Application\\Features\\CQRS\\Handler\\AddressHandler\\UpdateAddressCommandHandler.cs",
+              "RelativeToolTip": "Serivces\\Order\\Core\\MulitShop.Order.Application\\Features\\CQRS\\Handler\\AddressHandler\\UpdateAddressCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T07:17:56.458Z",
+              "WhenOpened": "2024-04-23T07:35:11.359Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RemoveAddressCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Serivces\\Order\\Core\\MulitShop.Order.Application\\Features\\CQRS\\Handler\\AddressHandler\\RemoveAddressCommandHandler.cs",
+              "RelativeDocumentMoniker": "Serivces\\Order\\Core\\MulitShop.Order.Application\\Features\\CQRS\\Handler\\AddressHandler\\RemoveAddressCommandHandler.cs",
+              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Serivces\\Order\\Core\\MulitShop.Order.Application\\Features\\CQRS\\Handler\\AddressHandler\\RemoveAddressCommandHandler.cs",
+              "RelativeToolTip": "Serivces\\Order\\Core\\MulitShop.Order.Application\\Features\\CQRS\\Handler\\AddressHandler\\RemoveAddressCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T07:32:26.371Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "GetAddressQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Serivces\\Order\\Core\\MulitShop.Order.Application\\Features\\CQRS\\Handler\\AddressHandler\\GetAddressQueryHandler.cs",
+              "RelativeDocumentMoniker": "Serivces\\Order\\Core\\MulitShop.Order.Application\\Features\\CQRS\\Handler\\AddressHandler\\GetAddressQueryHandler.cs",
+              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Serivces\\Order\\Core\\MulitShop.Order.Application\\Features\\CQRS\\Handler\\AddressHandler\\GetAddressQueryHandler.cs",
+              "RelativeToolTip": "Serivces\\Order\\Core\\MulitShop.Order.Application\\Features\\CQRS\\Handler\\AddressHandler\\GetAddressQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T07:28:34.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetAddressByIdQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Serivces\\Order\\Core\\MulitShop.Order.Application\\Features\\CQRS\\Handler\\AddressHandler\\GetAddressByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "Serivces\\Order\\Core\\MulitShop.Order.Application\\Features\\CQRS\\Handler\\AddressHandler\\GetAddressByIdQueryHandler.cs",
+              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Serivces\\Order\\Core\\MulitShop.Order.Application\\Features\\CQRS\\Handler\\AddressHandler\\GetAddressByIdQueryHandler.cs",
+              "RelativeToolTip": "Serivces\\Order\\Core\\MulitShop.Order.Application\\Features\\CQRS\\Handler\\AddressHandler\\GetAddressByIdQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T07:24:15.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Serivces\\Order\\Core\\MulitShop.Order.Application\\Interfaces\\IRepository.cs",
               "RelativeDocumentMoniker": "Serivces\\Order\\Core\\MulitShop.Order.Application\\Interfaces\\IRepository.cs",
@@ -55,12 +103,11 @@
               "RelativeToolTip": "Serivces\\Order\\Core\\MulitShop.Order.Application\\Interfaces\\IRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T06:55:59.028Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T06:55:59.028Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Ordering.cs",
               "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Order\\Core\\MultiShop.Order.Domain\\Entities\\Ordering.cs",
               "RelativeDocumentMoniker": "Services\\Order\\Core\\MultiShop.Order.Domain\\Entities\\Ordering.cs",
@@ -68,12 +115,11 @@
               "RelativeToolTip": "Services\\Order\\Core\\MultiShop.Order.Domain\\Entities\\Ordering.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T06:45:22.627Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T06:45:22.627Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "OrderDetail.cs",
               "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Order\\Core\\MultiShop.Order.Domain\\Entities\\OrderDetail.cs",
               "RelativeDocumentMoniker": "Services\\Order\\Core\\MultiShop.Order.Domain\\Entities\\OrderDetail.cs",
@@ -81,21 +127,19 @@
               "RelativeToolTip": "Services\\Order\\Core\\MultiShop.Order.Domain\\Entities\\OrderDetail.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T06:45:09.928Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T06:45:09.928Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Address.cs",
               "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Order\\Core\\MultiShop.Order.Domain\\Entities\\Address.cs",
               "RelativeDocumentMoniker": "Services\\Order\\Core\\MultiShop.Order.Domain\\Entities\\Address.cs",
               "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Order\\Core\\MultiShop.Order.Domain\\Entities\\Address.cs",
               "RelativeToolTip": "Services\\Order\\Core\\MultiShop.Order.Domain\\Entities\\Address.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAApAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T06:44:50.626Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T06:44:50.626Z"
             }
           ]
         }
