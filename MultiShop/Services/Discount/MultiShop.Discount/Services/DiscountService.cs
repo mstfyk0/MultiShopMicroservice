@@ -13,7 +13,7 @@ namespace MultiShop.Discount.Services
             _context = context;
         }
 
-        public async Task CreateCouponAsync(CreateCouponDto createCouponDto)
+        public async Task CreateDiscountCouponAsync(CreateDiscountCouponDto createCouponDto)
         {
             string query = "insert into Coupons ([Code], [Rate], [IsActive], [ValiedDate] ) " +
                 "values (@code,@rate, @isActive, @validDate) ";
