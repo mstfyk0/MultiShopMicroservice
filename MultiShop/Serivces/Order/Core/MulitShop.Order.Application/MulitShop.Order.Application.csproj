@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Features\CQRS\Handler\AddressHandler\" />
     <Folder Include="Features\Meditor\" />
   </ItemGroup>
 
