@@ -6,7 +6,7 @@ namespace MultiShop.Catalog.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class ProductImagesController : Controller
+    public class ProductImagesController : ControllerBase
     {
         private readonly IProductImageService _productImageService;
 
