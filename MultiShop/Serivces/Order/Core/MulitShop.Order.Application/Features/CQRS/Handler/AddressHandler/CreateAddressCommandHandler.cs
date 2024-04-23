@@ -1,10 +1,7 @@
-﻿using MulitShop.Order.Application.Interfaces;
+﻿using MulitShop.Order.Application.Features.CQRS.Commands.AddressCommands;
+using MulitShop.Order.Application.Interfaces;
 using MultiShop.Order.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace MulitShop.Order.Application.Features.CQRS.Handler.AddressHandler
 {
@@ -17,6 +14,15 @@ namespace MulitShop.Order.Application.Features.CQRS.Handler.AddressHandler
             _repository = repository;
         }
 
-
+        public async Task Handle(CreateAddressCommand createAddressCommand)
+        {
+            await _repository.CreateAsync(new Address
+            {
+                City = createAddressCommand.City,
+                District = createAddressCommand.District,
+                Detail = createAddressCommand.Detail,
+                UserId = createAddressCommand.UserId
+            });
+        }
     }
 }
