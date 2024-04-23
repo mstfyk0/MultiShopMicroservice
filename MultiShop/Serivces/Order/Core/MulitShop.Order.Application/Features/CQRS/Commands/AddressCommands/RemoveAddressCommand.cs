@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace MulitShop.Order.Application.Features.CQRS.Commands.AddressCommands
 {
-    public class CreateAddressCommand
+    public class RemoveAddressCommand
     {
-        public string UserId { get; set; }
-        public string District { get; set; }
-        public string City { get; set; }
-        public string Detail { get; set; }
+        public  int Id { get; set; }
+
+        public RemoveAddressCommand(int id)
+        {
+            Id = id;
+        }
     }
 }
