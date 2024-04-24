@@ -1,8 +1,15 @@
 using MulitShop.Order.Application.Features.CQRS.Handler.AddressHandler;
 using MulitShop.Order.Application.Features.CQRS.Handler.OrderDetailHandlers;
+using MulitShop.Order.Application.Interfaces;
+using MulitShop.Order.Application.Services;
+using MultiShop.Order.Persistence.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+builder.Services.AddApplicationService(builder.Configuration);
+
+#region
 // Add services to the container.
 builder.Services.AddScoped<GetOrderDetailQueryHandler>();
 builder.Services.AddScoped<GetOrderDetailByIdQueryHandler>();
@@ -15,6 +22,9 @@ builder.Services.AddScoped<GetAddressByIdQueryHandler>();
 builder.Services.AddScoped<CreateAddressCommandHandler>();
 builder.Services.AddScoped<UpdateAddressCommandHandler>();
 builder.Services.AddScoped<RemoveAddressCommandHandler>();
+#endregion
+
+
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
