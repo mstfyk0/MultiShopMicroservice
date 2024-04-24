@@ -1,11 +1,7 @@
 ﻿using MulitShop.Order.Application.Features.CQRS.Results.OrderDetailResults;
 using MulitShop.Order.Application.Interfaces;
 using MultiShop.Order.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace MulitShop.Order.Application.Features.CQRS.Handler.OrderDetailHandlers
 {
@@ -18,7 +14,7 @@ namespace MulitShop.Order.Application.Features.CQRS.Handler.OrderDetailHandlers
             _repository = repository;
         }
 
-        public async Task<List<GetOrderDetailQueryResult>> Handler() 
+        public async Task<List<GetOrderDetailQueryResult>> Handle() 
         {
             var values = await _repository.GetAllAsync();
             return values.Select(x => new GetOrderDetailQueryResult
