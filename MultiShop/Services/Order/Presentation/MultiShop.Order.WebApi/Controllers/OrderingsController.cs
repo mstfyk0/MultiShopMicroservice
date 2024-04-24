@@ -1,5 +1,4 @@
 ﻿using MediatR;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MulitShop.Order.Application.Features.Meditor.Command.OrderingCommands;
 using MulitShop.Order.Application.Features.Meditor.Queries.OrderingQueries;
@@ -44,7 +43,7 @@ namespace MultiShop.Order.WebApi.Controllers
             return Ok("Sipraiş başarıyla silindi.");
         }
 
-        [HttpPut)]
+        [HttpPut]
         public async Task<IActionResult> UpdateOrdering([FromBody] UpdateOrderingCommand updateOrderingCommand)
         {
             await _mediator.Send(updateOrderingCommand);
