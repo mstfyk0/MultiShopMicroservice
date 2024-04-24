@@ -1,6 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using MulitShop.Order.Application.Features.Meditor.Command.OrderingCommands;
 using MulitShop.Order.Application.Features.Meditor.Queries.OrderingQueries;
 
 namespace MultiShop.Order.WebApi.Controllers
@@ -19,6 +20,7 @@ namespace MultiShop.Order.WebApi.Controllers
             var values = await _mediator.Send(new GetOrderingQuery());
             return Ok(values);
         }
+
         [HttpGet("{id}")]
         public async Task<IActionResult> GetAllOrderingById([FromRoute] int id)
         {
@@ -26,6 +28,27 @@ namespace MultiShop.Order.WebApi.Controllers
             //send içinde Irequesti miras alan sınıfları çağırıcaz
             var values = await _mediator.Send(new GetOrderingByIdQuery(id));
             return Ok(values);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> CreateOrdering([FromBody] CreateOrderingCommand createOrderingCommand )
+        {
+            await _mediator.Send(createOrderingCommand);
+            return Ok("Sipraiş başarıyla eklendi.");
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> RemoveOrdering([FromRoute] int id)
+        {
+            await _mediator.Send(new RemoveOrderingCommand(id));
+            return Ok("Sipraiş başarıyla silindi.");
+        }
+
+        [HttpPut)]
+        public async Task<IActionResult> UpdateOrdering([FromBody] UpdateOrderingCommand updateOrderingCommand)
+        {
+            await _mediator.Send(updateOrderingCommand);
+            return Ok("Sipraiş başarıyla güncellendi.");
         }
     }
 }
