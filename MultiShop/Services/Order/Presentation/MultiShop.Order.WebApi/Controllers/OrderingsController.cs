@@ -11,6 +11,11 @@ namespace MultiShop.Order.WebApi.Controllers
     {
         private readonly IMediator _mediator;
 
+        public OrderingsController(IMediator mediator)
+        {
+            _mediator = mediator;
+        }
+
         [HttpGet] 
         public async Task<IActionResult> GetAllOrderingList()
         {

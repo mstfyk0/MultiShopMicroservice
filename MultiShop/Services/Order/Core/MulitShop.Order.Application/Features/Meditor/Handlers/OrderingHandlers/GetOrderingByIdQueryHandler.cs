@@ -20,6 +20,7 @@ namespace MulitShop.Order.Application.Features.Meditor.Handlers.OrderingHandlers
         public async Task<GetOrderingByIdQueryResult> Handle(GetOrderingByIdQuery request, CancellationToken cancellationToken)
         {
             var values = await _repository.GetByIdAsync(request.Id);
+
             return new GetOrderingByIdQueryResult
             {
                 OrderDate = values.OrderDate,
