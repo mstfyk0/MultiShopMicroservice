@@ -38,6 +38,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requirenments", "Requirenme
 		PortNumberDetails.txt = PortNumberDetails.txt
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cargo", "Cargo", "{EE593C73-EC57-4E3D-81D5-CC06893E5753}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.Cargo", "Services\MultiShop.Cargo\MultiShop.Cargo.csproj", "{1E22BAEB-3E16-4111-AE46-278CA3DEFC36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,6 +76,10 @@ Global
 		{C5EFDFE9-9A7B-43DD-9DB7-6F0F78F8264E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5EFDFE9-9A7B-43DD-9DB7-6F0F78F8264E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5EFDFE9-9A7B-43DD-9DB7-6F0F78F8264E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E22BAEB-3E16-4111-AE46-278CA3DEFC36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E22BAEB-3E16-4111-AE46-278CA3DEFC36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E22BAEB-3E16-4111-AE46-278CA3DEFC36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E22BAEB-3E16-4111-AE46-278CA3DEFC36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +98,8 @@ Global
 		{469E3E3E-4FC8-4309-A009-2D3481B1E099} = {B6331150-7268-4EC0-803C-8203BBD9C67F}
 		{08622D9B-D4AC-4701-A98E-BECF04CB6097} = {D918D943-698B-4327-8471-8E46AA06B6C9}
 		{C5EFDFE9-9A7B-43DD-9DB7-6F0F78F8264E} = {C78F0561-0FC2-492C-AD8F-71AE60A1FE21}
+		{EE593C73-EC57-4E3D-81D5-CC06893E5753} = {DED2A324-9724-4200-AC18-40135AC7322B}
+		{1E22BAEB-3E16-4111-AE46-278CA3DEFC36} = {EE593C73-EC57-4E3D-81D5-CC06893E5753}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B1FFC9FE-FFC4-43C4-9EBE-6868B112AE0E}
