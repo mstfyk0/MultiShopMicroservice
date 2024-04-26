@@ -9,30 +9,22 @@
     }
   },
   "profiles": {
-    "http": {
+    "MultiShop.Catalog": {
       "commandName": "Project",
       "dotnetRunMessages": true,
-      "launchBrowser": true,
+      //uygulama çalıştırıldığında browser açılıp uygulama linki ile başlaması için ayar true yapılırsa açılır.
+      "launchBrowser": false,
       "launchUrl": "swagger",
-      "applicationUrl": "http://localhost:5066",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
-    },
-    "https": {
-      "commandName": "Project",
-      "dotnetRunMessages": true,
-      "launchBrowser": true,
-      "launchUrl": "swagger",
-      "applicationUrl": "https://localhost:7047;http://localhost:5066",
+      "applicationUrl": "https://localhost:7047",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
     "IIS Express": {
       "commandName": "IISExpress",
-      "launchBrowser": true,
+      "launchBrowser": false,
       "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7047",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

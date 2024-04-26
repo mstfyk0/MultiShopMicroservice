@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using MulitShop.Order.Application.Features.CQRS.Handler.AddressHandler;
 using MulitShop.Order.Application.Features.CQRS.Handler.OrderDetailHandlers;
 using MulitShop.Order.Application.Interfaces;
@@ -6,6 +7,13 @@ using MultiShop.Order.Persistence.Context;
 using MultiShop.Order.Persistence.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
+
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(opt =>
+{
+    opt.Authority = builder.Configuration["IdentityServerUrl"];
+    opt.Audience = "ResourceOrder";
+});
 
 builder.Services.AddDbContext<OrderContext>();
 
