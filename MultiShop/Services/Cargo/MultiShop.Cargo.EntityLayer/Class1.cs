@@ -1,4 +1,4 @@
-﻿namespace MultiShop.Cargo
+﻿namespace MultiShop.Cargo.EntityLayer
 {
     public class Class1
     {
