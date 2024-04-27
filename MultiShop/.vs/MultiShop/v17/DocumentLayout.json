@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C5EFDFE9-9A7B-43DD-9DB7-6F0F78F8264E}|IdentityServer\\MultiShop.IdentityServer\\MultiShop.IdentityServer.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\identityserver\\multishop.identityserver\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5EFDFE9-9A7B-43DD-9DB7-6F0F78F8264E}|IdentityServer\\MultiShop.IdentityServer\\MultiShop.IdentityServer.csproj|solutionrelative:identityserver\\multishop.identityserver\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{66E8D3DC-3067-46A4-B5B2-73FA3FF01DA8}|Services\\Basket\\MultiShop.Basket\\MultiShop.Basket.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\services\\basket\\multishop.basket\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{66E8D3DC-3067-46A4-B5B2-73FA3FF01DA8}|Services\\Basket\\MultiShop.Basket\\MultiShop.Basket.csproj|solutionrelative:services\\basket\\multishop.basket\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DA6250D-71DA-432D-9D59-9FD31D8EC3EA}|Requirenments{3DA6250D-71DA-432D-9D59-9FD31D8EC3EA}|C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\PortNumberDetails.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3DA6250D-71DA-432D-9D59-9FD31D8EC3EA}|Requirenments{3DA6250D-71DA-432D-9D59-9FD31D8EC3EA}|solutionrelative:PortNumberDetails.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66E8D3DC-3067-46A4-B5B2-73FA3FF01DA8}|Services\\Basket\\MultiShop.Basket\\MultiShop.Basket.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\services\\basket\\multishop.basket\\controllers\\basketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66E8D3DC-3067-46A4-B5B2-73FA3FF01DA8}|Services\\Basket\\MultiShop.Basket\\MultiShop.Basket.csproj|solutionrelative:services\\basket\\multishop.basket\\controllers\\basketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{66E8D3DC-3067-46A4-B5B2-73FA3FF01DA8}|Services\\Basket\\MultiShop.Basket\\MultiShop.Basket.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\services\\basket\\multishop.basket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66E8D3DC-3067-46A4-B5B2-73FA3FF01DA8}|Services\\Basket\\MultiShop.Basket\\MultiShop.Basket.csproj|solutionrelative:services\\basket\\multishop.basket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66E8D3DC-3067-46A4-B5B2-73FA3FF01DA8}|Services\\Basket\\MultiShop.Basket\\MultiShop.Basket.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\services\\basket\\multishop.basket\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{66E8D3DC-3067-46A4-B5B2-73FA3FF01DA8}|Services\\Basket\\MultiShop.Basket\\MultiShop.Basket.csproj|solutionrelative:services\\basket\\multishop.basket\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{C5EFDFE9-9A7B-43DD-9DB7-6F0F78F8264E}|IdentityServer\\MultiShop.IdentityServer\\MultiShop.IdentityServer.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\identityserver\\multishop.identityserver\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5EFDFE9-9A7B-43DD-9DB7-6F0F78F8264E}|IdentityServer\\MultiShop.IdentityServer\\MultiShop.IdentityServer.csproj|solutionrelative:identityserver\\multishop.identityserver\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66E8D3DC-3067-46A4-B5B2-73FA3FF01DA8}|Services\\Basket\\MultiShop.Basket\\MultiShop.Basket.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\services\\basket\\multishop.basket\\controllers\\basketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66E8D3DC-3067-46A4-B5B2-73FA3FF01DA8}|Services\\Basket\\MultiShop.Basket\\MultiShop.Basket.csproj|solutionrelative:services\\basket\\multishop.basket\\controllers\\basketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{66E8D3DC-3067-46A4-B5B2-73FA3FF01DA8}|Services\\Basket\\MultiShop.Basket\\MultiShop.Basket.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\services\\basket\\multishop.basket\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{66E8D3DC-3067-46A4-B5B2-73FA3FF01DA8}|Services\\Basket\\MultiShop.Basket\\MultiShop.Basket.csproj|solutionrelative:services\\basket\\multishop.basket\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{66E8D3DC-3067-46A4-B5B2-73FA3FF01DA8}|Services\\Basket\\MultiShop.Basket\\MultiShop.Basket.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\services\\basket\\multishop.basket\\services\\loginservices\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,24 +42,50 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Basket\\MultiShop.Basket\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Services\\Basket\\MultiShop.Basket\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Basket\\MultiShop.Basket\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Services\\Basket\\MultiShop.Basket\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-27T15:54:23.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "PortNumberDetails.txt",
+              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\PortNumberDetails.txt",
+              "RelativeDocumentMoniker": "PortNumberDetails.txt",
+              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\PortNumberDetails.txt",
+              "RelativeToolTip": "PortNumberDetails.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-04-27T15:53:45.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Basket\\MultiShop.Basket\\Program.cs",
               "RelativeDocumentMoniker": "Services\\Basket\\MultiShop.Basket\\Program.cs",
               "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Basket\\MultiShop.Basket\\Program.cs",
               "RelativeToolTip": "Services\\Basket\\MultiShop.Basket\\Program.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAADAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-27T15:20:38.388Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Basket\\MultiShop.Basket\\appsettings.json",
               "RelativeDocumentMoniker": "Services\\Basket\\MultiShop.Basket\\appsettings.json",
@@ -64,33 +98,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Config.cs",
               "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\IdentityServer\\MultiShop.IdentityServer\\Config.cs",
               "RelativeDocumentMoniker": "IdentityServer\\MultiShop.IdentityServer\\Config.cs",
               "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\IdentityServer\\MultiShop.IdentityServer\\Config.cs",
               "RelativeToolTip": "IdentityServer\\MultiShop.IdentityServer\\Config.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAgwE8AAAAuAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-27T15:19:39.363Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "BasketsController.cs",
               "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Basket\\MultiShop.Basket\\Controllers\\BasketsController.cs",
               "RelativeDocumentMoniker": "Services\\Basket\\MultiShop.Basket\\Controllers\\BasketsController.cs",
               "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Basket\\MultiShop.Basket\\Controllers\\BasketsController.cs",
               "RelativeToolTip": "Services\\Basket\\MultiShop.Basket\\Controllers\\BasketsController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAYwCkAAAAkAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAYwB4AAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-27T15:14:56.925Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "LoginService.cs",
               "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Basket\\MultiShop.Basket\\Services\\LoginServices\\LoginService.cs",
               "RelativeDocumentMoniker": "Services\\Basket\\MultiShop.Basket\\Services\\LoginServices\\LoginService.cs",
@@ -103,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ILoginService.cs",
               "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Basket\\MultiShop.Basket\\Services\\LoginServices\\ILoginService.cs",
               "RelativeDocumentMoniker": "Services\\Basket\\MultiShop.Basket\\Services\\LoginServices\\ILoginService.cs",
