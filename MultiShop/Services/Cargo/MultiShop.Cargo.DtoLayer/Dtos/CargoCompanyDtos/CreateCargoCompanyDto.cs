@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MultiShop.Cargo.DtoLayer.Dtos.CargoCompanyDtos
 {
-    public record CreateCompanyDto
+    public record CreateCargoCompanyDto
     {
         public string CargoCompanyName { get; init; }
     }

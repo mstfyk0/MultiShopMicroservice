@@ -8,12 +8,12 @@ namespace MultiShop.Cargo.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CargoCompanyController : ControllerBase
+    public class CargoCompaniesController : ControllerBase
     {
 
         private readonly ICargoCompanyService _cargoCompanyService;
 
-        public CargoCompanyController(ICargoCompanyService cargoCompanyService)
+        public CargoCompaniesController(ICargoCompanyService cargoCompanyService)
         {
             _cargoCompanyService = cargoCompanyService;
         }
@@ -26,7 +26,7 @@ namespace MultiShop.Cargo.WebApi.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateCargoCompany([FromBody] CreateCompanyDto createCompanyDto)
+        public async Task<IActionResult> CreateCargoCompany([FromBody] CreateCargoCompanyDto createCompanyDto)
         {
             CargoCompany cargoCompany = new CargoCompany()
             {
