@@ -8,10 +8,10 @@ namespace MultiShop.Cargo.DataAccessLayer.Abstract
 {
     public interface IGenericDal<T> where T : class
     {
-        void Insert(T entity);
-        void Update(T entity);
-        void Delete(int id);
-        T GetById(int id);
-        List<T> GetAll();   
+        Task InsertAsync(T entity);
+        Task UpdateAsync(T entity);
+        Task DeleteAsync(int id);
+        Task<T> GetByIdAsync(int id);
+        Task<List<T>> GetAllAsync();   
     }
 }
