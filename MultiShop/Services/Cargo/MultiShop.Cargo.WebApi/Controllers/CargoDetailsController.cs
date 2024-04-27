@@ -69,7 +69,7 @@ namespace MultiShop.Cargo.WebApi.Controllers
 
             await _cargoDetailService.TUpdateAsync(cargoDetail);
 
-            return Ok("Kargo detay bilgisi eklendi.");
+            return Ok("Kargo detay bilgisi güncellendi.");
         }
     }
 }

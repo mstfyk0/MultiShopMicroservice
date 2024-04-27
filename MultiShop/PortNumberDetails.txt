@@ -2,3 +2,4 @@
 7047 port catalog service 
 7048 port discount service 
 7049 port order service 
+7050 port cargo service 

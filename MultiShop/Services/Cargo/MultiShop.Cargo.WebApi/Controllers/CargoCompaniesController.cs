@@ -61,7 +61,7 @@ namespace MultiShop.Cargo.WebApi.Controllers
         public async Task<IActionResult> GetCargoCompanyById([FromRoute] int id)
         {
             var values = await  _cargoCompanyService.TGetByIdAsync(id);
-            return Ok("Kargo şirketi silindi.");
+            return Ok(values);
         }
     }
 }
