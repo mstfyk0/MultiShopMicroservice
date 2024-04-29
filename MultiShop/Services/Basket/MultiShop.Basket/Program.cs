@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.Extensions.Options;
+using MultiShop.Basket.Dtos;
 using MultiShop.Basket.Services;
 using MultiShop.Basket.Services.LoginServices;
 using MultiShop.Basket.Settings;
@@ -11,16 +12,19 @@ var builder = WebApplication.CreateBuilder(args);
 
 var requireAuthorizePolicy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
 
-JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Remove("sub"); 
+//.net 7.0 ve sonrasýnda bu kod ile maplemeyi iptal edemiyoruz.
+//JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Remove("sub"); 
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(opt =>
 {
-opt.Authority = builder.Configuration["IdentityServerUrl"];
-opt.Audience = "ResourceBasket";
+    opt.Authority = builder.Configuration["IdentityServerUrl"];
+    opt.Audience = "ResourceBasket";
+    //.net 7.0 ve sonrasýnda bu kod ile mapleme iptal ediliyor.
+    opt.MapInboundClaims = false;
 });
 
 builder.Services.AddHttpContextAccessor();
-builder.Services.AddScoped<ILoginService, LoginService>();  
+builder.Services.AddScoped<ILoginService, LoginService>();
 builder.Services.AddScoped<IBasketService, BasketService>();
 builder.Services.Configure<RedisSettings>(builder.Configuration.GetSection("RedisSettings"));
 builder.Services.AddSingleton<RedisService>(sp =>

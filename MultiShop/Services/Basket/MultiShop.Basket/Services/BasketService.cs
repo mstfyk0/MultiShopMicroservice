@@ -1,7 +1,8 @@
-﻿using MultiShop.Basket.Dtos;
+﻿using Microsoft.AspNetCore.Authentication;
+using MultiShop.Basket.Dtos;
+using MultiShop.Basket.Services.LoginServices;
 using MultiShop.Basket.Settings;
 using System.Text.Json;
-using System.Text.Json.Serialization;
 
 namespace MultiShop.Basket.Services
 {
@@ -9,10 +10,13 @@ namespace MultiShop.Basket.Services
     {
 
         private readonly RedisService _redisService;
+        private readonly ILoginService _loginService;
 
-        public BasketService(RedisService redisService)
+
+        public BasketService(RedisService redisService, ILoginService loginService)
         {
             _redisService = redisService;
+            _loginService = loginService;
         }
 
         public async Task DeleteBasket(string userId)
@@ -28,6 +32,7 @@ namespace MultiShop.Basket.Services
 
         public async Task SaveBasket(BasketTotalDto basketTotalDto)
         {
+
             await _redisService.GetDb().StringSetAsync(basketTotalDto.UserId
                 , JsonSerializer.Serialize(basketTotalDto)); 
         }
