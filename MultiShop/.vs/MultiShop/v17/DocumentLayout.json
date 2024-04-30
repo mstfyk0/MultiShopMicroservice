@@ -3,72 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\frontends\\multishop.webui\\views\\shared\\components\\_categoriesdefaultcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|solutionrelative:frontends\\multishop.webui\\views\\shared\\components\\_categoriesdefaultcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\frontends\\multishop.webui\\views\\productlist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|solutionrelative:frontends\\multishop.webui\\views\\productlist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\frontends\\multishop.webui\\viewcomponents\\defaultviewcomponents\\_categoriesdefaultcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|solutionrelative:frontends\\multishop.webui\\viewcomponents\\defaultviewcomponents\\_categoriesdefaultcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\frontends\\multishop.webui\\wwwroot\\online-shop-website-template\\shop.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|solutionrelative:frontends\\multishop.webui\\wwwroot\\online-shop-website-template\\shop.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\frontends\\multishop.webui\\views\\shared\\components\\_carouseldefaultcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|solutionrelative:frontends\\multishop.webui\\views\\shared\\components\\_carouseldefaultcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\frontends\\multishop.webui\\views\\shared\\components\\_topbaruilayoutcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|solutionrelative:frontends\\multishop.webui\\views\\shared\\components\\_topbaruilayoutcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\frontends\\multishop.webui\\views\\uilayout\\_uilayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|solutionrelative:frontends\\multishop.webui\\views\\uilayout\\_uilayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\frontends\\multishop.webui\\controllers\\uilayoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|solutionrelative:frontends\\multishop.webui\\controllers\\uilayoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\frontends\\multishop.webui\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|solutionrelative:frontends\\multishop.webui\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\frontends\\multishop.webui\\views\\shared\\components\\_navbaruilayoutcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|solutionrelative:frontends\\multishop.webui\\views\\shared\\components\\_navbaruilayoutcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\frontends\\multishop.webui\\views\\shared\\components\\_featuredefaultcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|solutionrelative:frontends\\multishop.webui\\views\\shared\\components\\_featuredefaultcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\frontends\\multishop.webui\\viewcomponents\\uilayoutviewcomponents\\_navbaruilayoutcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|solutionrelative:frontends\\multishop.webui\\viewcomponents\\uilayoutviewcomponents\\_navbaruilayoutcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\frontends\\multishop.webui\\wwwroot\\online-shop-website-template\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|solutionrelative:frontends\\multishop.webui\\wwwroot\\online-shop-website-template\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\frontends\\multishop.webui\\viewcomponents\\defaultviewcomponents\\_speacialofferdefaultcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|solutionrelative:frontends\\multishop.webui\\viewcomponents\\defaultviewcomponents\\_speacialofferdefaultcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\frontends\\multishop.webui\\viewcomponents\\defaultviewcomponents\\_featuredefaultcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|solutionrelative:frontends\\multishop.webui\\viewcomponents\\defaultviewcomponents\\_featuredefaultcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\frontends\\multishop.webui\\views\\shared\\components\\_speacialofferdefaultcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|solutionrelative:frontends\\multishop.webui\\views\\shared\\components\\_speacialofferdefaultcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\frontends\\multishop.webui\\viewcomponents\\defaultviewcomponents\\_carouseldefaultcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|solutionrelative:frontends\\multishop.webui\\viewcomponents\\defaultviewcomponents\\_carouseldefaultcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\frontends\\multishop.webui\\viewcomponents\\uilayoutviewcomponents\\_topbaruilayoutcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|solutionrelative:frontends\\multishop.webui\\viewcomponents\\uilayoutviewcomponents\\_topbaruilayoutcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\frontends\\multishop.webui\\viewcomponents\\uilayoutviewcomponents\\_headuilayoutcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|solutionrelative:frontends\\multishop.webui\\viewcomponents\\uilayoutviewcomponents\\_headuilayoutcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\frontends\\multishop.webui\\controllers\\productlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|solutionrelative:frontends\\multishop.webui\\controllers\\productlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,227 +22,45 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\Views\\Shared\\Components\\_CategoriesDefaultComponentPartial\\Default.cshtml",
-              "RelativeDocumentMoniker": "Frontends\\MultiShop.WebUI\\Views\\Shared\\Components\\_CategoriesDefaultComponentPartial\\Default.cshtml",
-              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\Views\\Shared\\Components\\_CategoriesDefaultComponentPartial\\Default.cshtml",
-              "RelativeToolTip": "Frontends\\MultiShop.WebUI\\Views\\Shared\\Components\\_CategoriesDefaultComponentPartial\\Default.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-29T21:04:39.888Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_CategoriesDefaultComponentPartial.cs",
-              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\ViewComponents\\DefaultViewComponents\\_CategoriesDefaultComponentPartial.cs",
-              "RelativeDocumentMoniker": "Frontends\\MultiShop.WebUI\\ViewComponents\\DefaultViewComponents\\_CategoriesDefaultComponentPartial.cs",
-              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\ViewComponents\\DefaultViewComponents\\_CategoriesDefaultComponentPartial.cs",
-              "RelativeToolTip": "Frontends\\MultiShop.WebUI\\ViewComponents\\DefaultViewComponents\\_CategoriesDefaultComponentPartial.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T21:03:03.101Z",
+              "Title": "shop.html",
+              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\wwwroot\\online-shop-website-template\\shop.html",
+              "RelativeDocumentMoniker": "Frontends\\MultiShop.WebUI\\wwwroot\\online-shop-website-template\\shop.html",
+              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\wwwroot\\online-shop-website-template\\shop.html",
+              "RelativeToolTip": "Frontends\\MultiShop.WebUI\\wwwroot\\online-shop-website-template\\shop.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFsCAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-04-30T05:48:13.379Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\Views\\Shared\\Components\\_FeatureDefaultComponentPartial\\Default.cshtml",
-              "RelativeDocumentMoniker": "Frontends\\MultiShop.WebUI\\Views\\Shared\\Components\\_FeatureDefaultComponentPartial\\Default.cshtml",
-              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\Views\\Shared\\Components\\_FeatureDefaultComponentPartial\\Default.cshtml",
-              "RelativeToolTip": "Frontends\\MultiShop.WebUI\\Views\\Shared\\Components\\_FeatureDefaultComponentPartial\\Default.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAASAAAA",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\Views\\ProductList\\Index.cshtml",
+              "RelativeDocumentMoniker": "Frontends\\MultiShop.WebUI\\Views\\ProductList\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\Views\\ProductList\\Index.cshtml",
+              "RelativeToolTip": "Frontends\\MultiShop.WebUI\\Views\\ProductList\\Index.cshtml",
+              "ViewState": "AQIAAIkBAAAAAAAAAAAtwJgBAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-29T20:57:47.255Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "_FeatureDefaultComponentPartial.cs",
-              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\ViewComponents\\DefaultViewComponents\\_FeatureDefaultComponentPartial.cs",
-              "RelativeDocumentMoniker": "Frontends\\MultiShop.WebUI\\ViewComponents\\DefaultViewComponents\\_FeatureDefaultComponentPartial.cs",
-              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\ViewComponents\\DefaultViewComponents\\_FeatureDefaultComponentPartial.cs",
-              "RelativeToolTip": "Frontends\\MultiShop.WebUI\\ViewComponents\\DefaultViewComponents\\_FeatureDefaultComponentPartial.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T20:56:08.406Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\Views\\Shared\\Components\\_SpeacialOfferDefaultComponentPartial\\Default.cshtml",
-              "RelativeDocumentMoniker": "Frontends\\MultiShop.WebUI\\Views\\Shared\\Components\\_SpeacialOfferDefaultComponentPartial\\Default.cshtml",
-              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\Views\\Shared\\Components\\_SpeacialOfferDefaultComponentPartial\\Default.cshtml",
-              "RelativeToolTip": "Frontends\\MultiShop.WebUI\\Views\\Shared\\Components\\_SpeacialOfferDefaultComponentPartial\\Default.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-29T20:42:48.927Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "_SpeacialOfferDefaultComponentPartial.cs",
-              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\ViewComponents\\DefaultViewComponents\\_SpeacialOfferDefaultComponentPartial.cs",
-              "RelativeDocumentMoniker": "Frontends\\MultiShop.WebUI\\ViewComponents\\DefaultViewComponents\\_SpeacialOfferDefaultComponentPartial.cs",
-              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\ViewComponents\\DefaultViewComponents\\_SpeacialOfferDefaultComponentPartial.cs",
-              "RelativeToolTip": "Frontends\\MultiShop.WebUI\\ViewComponents\\DefaultViewComponents\\_SpeacialOfferDefaultComponentPartial.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T20:41:18.728Z",
+              "WhenOpened": "2024-04-30T05:47:41.217Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\Views\\Shared\\Components\\_CarouselDefaultComponentPartial\\Default.cshtml",
-              "RelativeDocumentMoniker": "Frontends\\MultiShop.WebUI\\Views\\Shared\\Components\\_CarouselDefaultComponentPartial\\Default.cshtml",
-              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\Views\\Shared\\Components\\_CarouselDefaultComponentPartial\\Default.cshtml",
-              "RelativeToolTip": "Frontends\\MultiShop.WebUI\\Views\\Shared\\Components\\_CarouselDefaultComponentPartial\\Default.cshtml",
-              "ViewState": "AQIAACMAAAAAAAAAAAAmwC4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-29T20:20:30.105Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "_CarouselDefaultComponentPartial.cs",
-              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\ViewComponents\\DefaultViewComponents\\_CarouselDefaultComponentPartial.cs",
-              "RelativeDocumentMoniker": "Frontends\\MultiShop.WebUI\\ViewComponents\\DefaultViewComponents\\_CarouselDefaultComponentPartial.cs",
-              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\ViewComponents\\DefaultViewComponents\\_CarouselDefaultComponentPartial.cs",
-              "RelativeToolTip": "Frontends\\MultiShop.WebUI\\ViewComponents\\DefaultViewComponents\\_CarouselDefaultComponentPartial.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Title": "ProductListController.cs",
+              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\Controllers\\ProductListController.cs",
+              "RelativeDocumentMoniker": "Frontends\\MultiShop.WebUI\\Controllers\\ProductListController.cs",
+              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\Controllers\\ProductListController.cs",
+              "RelativeToolTip": "Frontends\\MultiShop.WebUI\\Controllers\\ProductListController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T20:19:19.407Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\wwwroot\\online-shop-website-template\\index.html",
-              "RelativeDocumentMoniker": "Frontends\\MultiShop.WebUI\\wwwroot\\online-shop-website-template\\index.html",
-              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\wwwroot\\online-shop-website-template\\index.html",
-              "RelativeToolTip": "Frontends\\MultiShop.WebUI\\wwwroot\\online-shop-website-template\\index.html",
-              "ViewState": "AQIAABEAAAAAAAAAAAAAABABAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-04-29T20:16:51.949Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\Views\\Shared\\Components\\_NavbarUILayoutComponentPartial\\Default.cshtml",
-              "RelativeDocumentMoniker": "Frontends\\MultiShop.WebUI\\Views\\Shared\\Components\\_NavbarUILayoutComponentPartial\\Default.cshtml",
-              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\Views\\Shared\\Components\\_NavbarUILayoutComponentPartial\\Default.cshtml",
-              "RelativeToolTip": "Frontends\\MultiShop.WebUI\\Views\\Shared\\Components\\_NavbarUILayoutComponentPartial\\Default.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAADcAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-29T20:08:34.689Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_NavbarUILayoutComponentPartial.cs",
-              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\ViewComponents\\UILayoutViewComponents\\_NavbarUILayoutComponentPartial.cs",
-              "RelativeDocumentMoniker": "Frontends\\MultiShop.WebUI\\ViewComponents\\UILayoutViewComponents\\_NavbarUILayoutComponentPartial.cs",
-              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\ViewComponents\\UILayoutViewComponents\\_NavbarUILayoutComponentPartial.cs",
-              "RelativeToolTip": "Frontends\\MultiShop.WebUI\\ViewComponents\\UILayoutViewComponents\\_NavbarUILayoutComponentPartial.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T20:07:20.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\Views\\Shared\\Components\\_TopbarUILayoutComponentPartial\\Default.cshtml",
-              "RelativeDocumentMoniker": "Frontends\\MultiShop.WebUI\\Views\\Shared\\Components\\_TopbarUILayoutComponentPartial\\Default.cshtml",
-              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\Views\\Shared\\Components\\_TopbarUILayoutComponentPartial\\Default.cshtml",
-              "RelativeToolTip": "Frontends\\MultiShop.WebUI\\Views\\Shared\\Components\\_TopbarUILayoutComponentPartial\\Default.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAUwCAAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-29T19:58:44.264Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "_TopbarUILayoutComponentPartial.cs",
-              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\ViewComponents\\UILayoutViewComponents\\_TopbarUILayoutComponentPartial.cs",
-              "RelativeDocumentMoniker": "Frontends\\MultiShop.WebUI\\ViewComponents\\UILayoutViewComponents\\_TopbarUILayoutComponentPartial.cs",
-              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\ViewComponents\\UILayoutViewComponents\\_TopbarUILayoutComponentPartial.cs",
-              "RelativeToolTip": "Frontends\\MultiShop.WebUI\\ViewComponents\\UILayoutViewComponents\\_TopbarUILayoutComponentPartial.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T19:55:45.424Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\Views\\Default\\Index.cshtml",
-              "RelativeDocumentMoniker": "Frontends\\MultiShop.WebUI\\Views\\Default\\Index.cshtml",
-              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\Views\\Default\\Index.cshtml",
-              "RelativeToolTip": "Frontends\\MultiShop.WebUI\\Views\\Default\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-29T17:24:09.414Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "_HeadUILayoutComponentPartial.cs",
-              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\ViewComponents\\UILayoutViewComponents\\_HeadUILayoutComponentPartial.cs",
-              "RelativeDocumentMoniker": "Frontends\\MultiShop.WebUI\\ViewComponents\\UILayoutViewComponents\\_HeadUILayoutComponentPartial.cs",
-              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\ViewComponents\\UILayoutViewComponents\\_HeadUILayoutComponentPartial.cs",
-              "RelativeToolTip": "Frontends\\MultiShop.WebUI\\ViewComponents\\UILayoutViewComponents\\_HeadUILayoutComponentPartial.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T17:34:28.358Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_UILayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\Views\\UILayout\\_UILayout.cshtml",
-              "RelativeDocumentMoniker": "Frontends\\MultiShop.WebUI\\Views\\UILayout\\_UILayout.cshtml",
-              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\Views\\UILayout\\_UILayout.cshtml",
-              "RelativeToolTip": "Frontends\\MultiShop.WebUI\\Views\\UILayout\\_UILayout.cshtml",
-              "ViewState": "AQIAAEoAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-29T16:13:59.261Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UILayoutController.cs",
-              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\Controllers\\UILayoutController.cs",
-              "RelativeDocumentMoniker": "Frontends\\MultiShop.WebUI\\Controllers\\UILayoutController.cs",
-              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\Controllers\\UILayoutController.cs",
-              "RelativeToolTip": "Frontends\\MultiShop.WebUI\\Controllers\\UILayoutController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T16:13:25.21Z",
+              "WhenOpened": "2024-04-30T05:47:07.404Z",
               "EditorCaption": ""
             }
           ]
