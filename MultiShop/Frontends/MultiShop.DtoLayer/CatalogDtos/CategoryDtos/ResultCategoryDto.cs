@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace MultiShop.DtoLayer.CatalogDtos.CategoryDtos
 {
-    public class ResultCategoryDto
+    public record ResultCategoryDto
     {
+        public string CategoryId { get; init; }
+
+        public string CategoryName { get; init; }
     }
 }
