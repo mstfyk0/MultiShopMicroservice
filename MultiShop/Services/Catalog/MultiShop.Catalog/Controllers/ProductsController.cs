@@ -5,7 +5,8 @@ using MultiShop.Catalog.Services.ProductServices;
 
 namespace MultiShop.Catalog.Controllers
 {
-    [Authorize]
+    //[Authorize]
+    [AllowAnonymous]
     [ApiController]
     [Route("api/[controller]")]
     public class ProductsController : ControllerBase
@@ -17,35 +18,35 @@ namespace MultiShop.Catalog.Controllers
             _productService = productService;
         }
 
-        [HttpGet]
+        [HttpGet("getAllProduct")]
         public async Task<IActionResult> ProductList()
         {
             var values = await _productService.GetAllProductAsync();
             return Ok(values);
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("getProductById/{id}")]
         public async Task<IActionResult> GetProductById([FromRoute]string id)
         {
             var values = await _productService.GetByIdProductAsync(id);
             return Ok(values);
         }
 
-        [HttpPost]
+        [HttpPost("createProduct")]
         public async Task<IActionResult> CreateProduct([FromBody] CreateProductDto createProductDto)
         {
             await _productService.CreateProductAsync(createProductDto);
             return Ok("Ürün başarıyla eklendi.");
         }
 
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeteleProduct([FromRoute] string id)
+        [HttpDelete("deleteProduct/{id}")]
+        public async Task<IActionResult> DeleteProduct([FromRoute] string id)
         {
             await _productService.DeleteProductAsync(id);
             return Ok("Ürün başarıyla silindi.");
         }
 
-        [HttpPut]
+        [HttpPut("updateProduct")]
         public async Task<IActionResult> UpdateProduct([FromBody]UpdateProductDto updateProductDto)
         {
             await _productService.UpdateProductAsync(updateProductDto);
