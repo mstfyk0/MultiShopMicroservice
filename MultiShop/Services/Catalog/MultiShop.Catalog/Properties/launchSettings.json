@@ -13,7 +13,7 @@
       "commandName": "Project",
       "dotnetRunMessages": true,
       //uygulama çalıştırıldığında browser açılıp uygulama linki ile başlaması için ayar true yapılırsa açılır.
-      "launchBrowser": false,
+      "launchBrowser": true,
       "launchUrl": "swagger",
       "applicationUrl": "https://localhost:7047",
       "environmentVariables": {
