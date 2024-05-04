@@ -1,9 +1,12 @@
-﻿@model CreateCategoryDto
+﻿@model UpdateCategoryDto
+
+
 
 @{
-    ViewData["Title"] = "CreateCategory";
+    ViewData["Title"] = "UpdateCategory";
     Layout = "~/Areas/Admin/Views/AdminLayout/Index.cshtml";
 }
+
 
 
 <div class="container-fluid pt-4 px-4">
@@ -16,14 +19,13 @@
                     <label>
                         Kategori Adı
                     </label>
-                    <input type="text" class="form-control" asp-for="CategoryName" /> 
+                    <input type="text" class="form-control" asp-for="CategoryName" />
                     <div class=" pt-2">
-                        <button class="btn btn-primary"> Ekle </button>
+                        <button class="btn btn-primary"> Güncelle </button>
                     </div>
                 </form>
             </div>
         </div>
     </div>
 </div>
-
 
