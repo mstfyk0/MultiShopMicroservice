@@ -8,6 +8,6 @@ namespace MultiShop.DtoLayer.CatalogDtos.CategoryDtos
 {
     public record CreateCategoryDto
     {
-        public string CategoryName { get; set; }
+        public string CategoryName { get; init; }
     }
 }

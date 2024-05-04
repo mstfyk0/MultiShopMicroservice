@@ -1,0 +1,44 @@
+﻿@model CreateProductDto
+@{
+    ViewData["Title"] = "CreateProduct";
+    Layout = "~/Areas/Admin/Views/AdminLayout/Index.cshtml";
+}
+
+
+<div class="container-fluid pt-4 px-4">
+    <div class="col-12">
+        <div class="bg-secondary rounded h-100 p-4">
+            <h6 class="mb-4">Ürün Ekle </h6>
+            <div class="table-responsive">
+
+                <form method="post">
+                    <label>
+                        Ürün Adı
+                    </label>
+                    <input type="text" class="form-control" asp-for="ProductName" />
+                    <label>
+                        Tutar
+                    </label>
+                    <input type="text" class="form-control" asp-for="ProductPrice" />
+                    <label>
+                        Resim
+                    </label>
+                    <input type="text" class="form-control" asp-for="ProductImageUrl" />
+                    <label>
+                        Kategori
+                    </label>
+                    <input type="" class="form-control" asp-for="ProductImageUrl" />
+                    <label>
+                        Açıklama
+                    </label>
+                    <textarea class="form-control" asp-for="ProductDescription" rows="5"> </textarea>
+                   @*  <input type="text" class="form-control" asp-for="ProductDescription" /> *@
+                    <div class=" pt-2">
+                        <button class="btn btn-primary"> Ekle </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
