@@ -1,6 +1,6 @@
-﻿@model CreateProductDto
+﻿@model UpdateProductDto
 @{
-    ViewData["Title"] = "CreateProduct";
+    ViewData["Title"] = "UpdateProduct";
     Layout = "~/Areas/Admin/Views/AdminLayout/Index.cshtml";
 }
 
@@ -8,10 +8,11 @@
 <div class="container-fluid pt-4 px-4">
     <div class="col-12">
         <div class="bg-secondary rounded h-100 p-4">
-            <h6 class="mb-4">Ürün Ekle </h6>
+            <h6 class="mb-4">Ürün Güncelleme </h6>
             <div class="table-responsive">
 
                 <form method="post">
+                    <input type="hidden" class="form-control" asp-for="ProductId" />
                     <label>
                         Ürün Adı
                     </label>
@@ -27,15 +28,15 @@
                     <label>
                         Kategori
                     </label>
-                    @Html.DropDownListFor(category => category.CategoryId, (List<SelectListItem>)ViewBag.CategoryValues,new {@class= "form-control"})
+                    @Html.DropDownListFor(category => category.CategoryId, (List<SelectListItem>)ViewBag.CategoryValues, new { @class = "form-control" })
                     @* <input type="" class="form-control" asp-for="ProductImageUrl" /> *@
                     <label>
                         Açıklama
                     </label>
                     <textarea class="form-control" asp-for="ProductDescription" rows="5"> </textarea>
-                   @*  <input type="text" class="form-control" asp-for="ProductDescription" /> *@
+                    @*  <input type="text" class="form-control" asp-for="ProductDescription" /> *@
                     <div class=" pt-2">
-                        <button class="btn btn-primary"> Ekle </button>
+                        <button class="btn btn-primary"> Güncelle </button>
                     </div>
                 </form>
             </div>
