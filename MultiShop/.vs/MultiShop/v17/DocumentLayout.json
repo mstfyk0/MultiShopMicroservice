@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9CAC6F8F-1F7F-4404-91B4-7B60F02DE981}|Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\services\\catalog\\multishop.catalog\\controllers\\featureslidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CAC6F8F-1F7F-4404-91B4-7B60F02DE981}|Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj|solutionrelative:services\\catalog\\multishop.catalog\\controllers\\featureslidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\frontends\\multishop.webui\\areas\\admin\\views\\featureslider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|solutionrelative:frontends\\multishop.webui\\areas\\admin\\views\\featureslider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CAC6F8F-1F7F-4404-91B4-7B60F02DE981}|Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\services\\catalog\\multishop.catalog\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CAC6F8F-1F7F-4404-91B4-7B60F02DE981}|Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj|solutionrelative:services\\catalog\\multishop.catalog\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\frontends\\multishop.webui\\areas\\admin\\controllers\\featureslidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|solutionrelative:frontends\\multishop.webui\\areas\\admin\\controllers\\featureslidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CAC6F8F-1F7F-4404-91B4-7B60F02DE981}|Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\services\\catalog\\multishop.catalog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CAC6F8F-1F7F-4404-91B4-7B60F02DE981}|Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj|solutionrelative:services\\catalog\\multishop.catalog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\frontends\\multishop.webui\\areas\\admin\\views\\featureslider\\createfeatureslider.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|solutionrelative:frontends\\multishop.webui\\areas\\admin\\views\\featureslider\\createfeatureslider.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CAC6F8F-1F7F-4404-91B4-7B60F02DE981}|Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\services\\catalog\\multishop.catalog\\services\\featuresliderservices\\featuresliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CAC6F8F-1F7F-4404-91B4-7B60F02DE981}|Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj|solutionrelative:services\\catalog\\multishop.catalog\\services\\featuresliderservices\\featuresliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CAC6F8F-1F7F-4404-91B4-7B60F02DE981}|Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\services\\catalog\\multishop.catalog\\services\\categoryservices\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CAC6F8F-1F7F-4404-91B4-7B60F02DE981}|Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj|solutionrelative:services\\catalog\\multishop.catalog\\services\\categoryservices\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CAC6F8F-1F7F-4404-91B4-7B60F02DE981}|Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\services\\catalog\\multishop.catalog\\mapping\\generalmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CAC6F8F-1F7F-4404-91B4-7B60F02DE981}|Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj|solutionrelative:services\\catalog\\multishop.catalog\\mapping\\generalmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CAC6F8F-1F7F-4404-91B4-7B60F02DE981}|Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\services\\catalog\\multishop.catalog\\services\\featuresliderservices\\ifeaturesliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CAC6F8F-1F7F-4404-91B4-7B60F02DE981}|Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj|solutionrelative:services\\catalog\\multishop.catalog\\services\\featuresliderservices\\ifeaturesliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\frontends\\multishop.webui\\areas\\admin\\views\\featureslider\\updatefeatureslider.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23700E1E-B329-4A6F-B983-2824A9C510B9}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|solutionrelative:frontends\\multishop.webui\\areas\\admin\\views\\featureslider\\updatefeatureslider.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,97 +26,58 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Catalog\\MultiShop.Catalog\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\MultiShop.Catalog\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Catalog\\MultiShop.Catalog\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "Services\\Catalog\\MultiShop.Catalog\\Controllers\\CategoriesController.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAkwDUAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T13:14:51.575Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FeatureSliderController.cs",
-              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Catalog\\MultiShop.Catalog\\Controllers\\FeatureSliderController.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\MultiShop.Catalog\\Controllers\\FeatureSliderController.cs",
-              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Catalog\\MultiShop.Catalog\\Controllers\\FeatureSliderController.cs",
-              "RelativeToolTip": "Services\\Catalog\\MultiShop.Catalog\\Controllers\\FeatureSliderController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T13:14:29.317Z",
+              "DocumentIndex": 3,
+              "Title": "UpdateFeatureSlider.cshtml",
+              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\Areas\\Admin\\Views\\FeatureSlider\\UpdateFeatureSlider.cshtml",
+              "RelativeDocumentMoniker": "Frontends\\MultiShop.WebUI\\Areas\\Admin\\Views\\FeatureSlider\\UpdateFeatureSlider.cshtml",
+              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\Areas\\Admin\\Views\\FeatureSlider\\UpdateFeatureSlider.cshtml",
+              "RelativeToolTip": "Frontends\\MultiShop.WebUI\\Areas\\Admin\\Views\\FeatureSlider\\UpdateFeatureSlider.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T13:27:23.585Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Catalog\\MultiShop.Catalog\\Program.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\MultiShop.Catalog\\Program.cs",
-              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Catalog\\MultiShop.Catalog\\Program.cs",
-              "RelativeToolTip": "Services\\Catalog\\MultiShop.Catalog\\Program.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAABoAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T13:13:48.732Z",
+              "Title": "CreateFeatureSlider.cshtml",
+              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\Areas\\Admin\\Views\\FeatureSlider\\CreateFeatureSlider.cshtml",
+              "RelativeDocumentMoniker": "Frontends\\MultiShop.WebUI\\Areas\\Admin\\Views\\FeatureSlider\\CreateFeatureSlider.cshtml",
+              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\Areas\\Admin\\Views\\FeatureSlider\\CreateFeatureSlider.cshtml",
+              "RelativeToolTip": "Frontends\\MultiShop.WebUI\\Areas\\Admin\\Views\\FeatureSlider\\CreateFeatureSlider.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T13:26:57.659Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GeneralMapping.cs",
-              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Catalog\\MultiShop.Catalog\\Mapping\\GeneralMapping.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\MultiShop.Catalog\\Mapping\\GeneralMapping.cs",
-              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Catalog\\MultiShop.Catalog\\Mapping\\GeneralMapping.cs",
-              "RelativeToolTip": "Services\\Catalog\\MultiShop.Catalog\\Mapping\\GeneralMapping.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T13:09:47.455Z",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\Areas\\Admin\\Views\\FeatureSlider\\Index.cshtml",
+              "RelativeDocumentMoniker": "Frontends\\MultiShop.WebUI\\Areas\\Admin\\Views\\FeatureSlider\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\Areas\\Admin\\Views\\FeatureSlider\\Index.cshtml",
+              "RelativeToolTip": "Frontends\\MultiShop.WebUI\\Areas\\Admin\\Views\\FeatureSlider\\Index.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T13:26:22.165Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CategoryService.cs",
-              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Catalog\\MultiShop.Catalog\\Services\\CategoryServices\\CategoryService.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\MultiShop.Catalog\\Services\\CategoryServices\\CategoryService.cs",
-              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Catalog\\MultiShop.Catalog\\Services\\CategoryServices\\CategoryService.cs",
-              "RelativeToolTip": "Services\\Catalog\\MultiShop.Catalog\\Services\\CategoryServices\\CategoryService.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAgwDEAAAB4AAAA",
+              "DocumentIndex": 1,
+              "Title": "FeatureSliderController.cs",
+              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\Areas\\Admin\\Controllers\\FeatureSliderController.cs",
+              "RelativeDocumentMoniker": "Frontends\\MultiShop.WebUI\\Areas\\Admin\\Controllers\\FeatureSliderController.cs",
+              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Frontends\\MultiShop.WebUI\\Areas\\Admin\\Controllers\\FeatureSliderController.cs",
+              "RelativeToolTip": "Frontends\\MultiShop.WebUI\\Areas\\Admin\\Controllers\\FeatureSliderController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAYwCoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T13:08:06Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FeatureSliderService.cs",
-              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Catalog\\MultiShop.Catalog\\Services\\FeatureSliderServices\\FeatureSliderService.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\MultiShop.Catalog\\Services\\FeatureSliderServices\\FeatureSliderService.cs",
-              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Catalog\\MultiShop.Catalog\\Services\\FeatureSliderServices\\FeatureSliderService.cs",
-              "RelativeToolTip": "Services\\Catalog\\MultiShop.Catalog\\Services\\FeatureSliderServices\\FeatureSliderService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T13:05:08.39Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IFeatureSliderService.cs",
-              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Catalog\\MultiShop.Catalog\\Services\\FeatureSliderServices\\IFeatureSliderService.cs",
-              "RelativeDocumentMoniker": "Services\\Catalog\\MultiShop.Catalog\\Services\\FeatureSliderServices\\IFeatureSliderService.cs",
-              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Catalog\\MultiShop.Catalog\\Services\\FeatureSliderServices\\IFeatureSliderService.cs",
-              "RelativeToolTip": "Services\\Catalog\\MultiShop.Catalog\\Services\\FeatureSliderServices\\IFeatureSliderService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T13:02:23.365Z",
+              "WhenOpened": "2024-05-07T13:19:49.675Z",
               "EditorCaption": ""
             }
           ]

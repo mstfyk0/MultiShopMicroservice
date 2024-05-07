@@ -9,11 +9,11 @@ namespace MultiShop.Catalog.Controllers
     [Route("api/[controller]")]
     [ApiController]
     [AllowAnonymous]
-    public class FeatureSliderController : ControllerBase
+    public class FeatureSlidersController : ControllerBase
     {
         private readonly IFeatureSliderService _FeatureSliderService;
 
-        public FeatureSliderController(IFeatureSliderService FeatureSliderService)
+        public FeatureSlidersController(IFeatureSliderService FeatureSliderService)
         {
             _FeatureSliderService = FeatureSliderService;
         }

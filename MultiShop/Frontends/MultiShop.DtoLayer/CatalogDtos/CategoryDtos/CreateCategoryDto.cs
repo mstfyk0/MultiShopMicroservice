@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace MultiShop.DtoLayer.CatalogDtos.CategoryDtos
 {
-    public record CreateCategoryDto
+    public class CreateCategoryDto
     {
-        public string CategoryName { get; init; }
+        public string CategoryName { get; set; }
     }
 }
