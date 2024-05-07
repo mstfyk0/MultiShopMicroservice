@@ -23,8 +23,32 @@ namespace MultiShop.WebUI.Areas.Admin.Controllers
             _httpClientFactory = httpClientFactory;
         }
 
+        //[Route("Index")]
+        //public async Task<IActionResult> Index()
+        //{
+
+        //    ViewBag.v0 = "Ürün İşlemleri";
+        //    ViewBag.v1 = "Ana Sayfa";
+        //    ViewBag.v2 = "Ürünler";
+        //    ViewBag.v3 = "Ürün Listesi";
+
+        //    var client = _httpClientFactory.CreateClient();
+        //    var responseMessage = await client.GetAsync("https://localhost:7047/api/products/getAllProduct");
+
+
+        //    if (responseMessage.IsSuccessStatusCode)
+        //    {
+        //        var jsonData = await responseMessage.Content.ReadAsStringAsync();
+        //        var values = JsonConvert.DeserializeObject<List<ResultProductDto>>(jsonData);
+        //        return View(values);
+        //    }
+
+        //    return View();
+        //}
+
+
         [Route("Index")]
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> ProductListWithCategory()
         {
 
             ViewBag.v0 = "Ürün İşlemleri";
@@ -33,37 +57,13 @@ namespace MultiShop.WebUI.Areas.Admin.Controllers
             ViewBag.v3 = "Ürün Listesi";
 
             var client = _httpClientFactory.CreateClient();
-            var responseMessage = await client.GetAsync("https://localhost:7047/api/products/getAllProduct");
+            var responseMessage = await client.GetAsync("https://localhost:7047/api/products/getProductListWithCategory");
 
 
             if (responseMessage.IsSuccessStatusCode)
             {
                 var jsonData = await responseMessage.Content.ReadAsStringAsync();
-                var values = JsonConvert.DeserializeObject<List<ResultProductDto>>(jsonData);
-                return View(values);
-            }
-
-            return View();
-        }
-
-
-        [Route("Index")]
-        public async Task<IActionResult> Index()
-        {
-
-            ViewBag.v0 = "Ürün İşlemleri";
-            ViewBag.v1 = "Ana Sayfa";
-            ViewBag.v2 = "Ürünler";
-            ViewBag.v3 = "Ürün Listesi";
-
-            var client = _httpClientFactory.CreateClient();
-            var responseMessage = await client.GetAsync("https://localhost:7047/api/products/getAllProduct");
-
-
-            if (responseMessage.IsSuccessStatusCode)
-            {
-                var jsonData = await responseMessage.Content.ReadAsStringAsync();
-                var values = JsonConvert.DeserializeObject<List<ResultProductDto>>(jsonData);
+                var values = JsonConvert.DeserializeObject<List<ResultProductsWithCategoryDto>>(jsonData);
                 return View(values);
             }
 
