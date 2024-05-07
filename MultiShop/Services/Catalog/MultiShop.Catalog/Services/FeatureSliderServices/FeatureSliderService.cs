@@ -1,17 +1,37 @@
-﻿using MultiShop.Catalog.Dtos.FeatureSliderDtos;
+﻿using AutoMapper;
+using MongoDB.Driver;
+using MultiShop.Catalog.Dtos.CategoryDtos;
+using MultiShop.Catalog.Dtos.FeatureSliderDtos;
+using MultiShop.Catalog.Entities;
+using MultiShop.Catalog.Settings;
 
 namespace MultiShop.Catalog.Services.FeatureSliderServices
 {
     public class FeatureSliderService : IFeatureSliderService
     {
-        public Task CreateFeatureSliderAsync(CreateFeatureSliderDto createFeatureSliderDto)
+        private readonly IMongoCollection<FeatureSlider> _featureSliderCollection;
+        private readonly IMapper _mapper;
+
+        public FeatureSliderService(IMapper mapper, IDatabaseSettings _databaseSettings)
         {
-            throw new NotImplementedException();
+            _mapper = mapper;
+            var client = new MongoClient(_databaseSettings.ConnectionString);
+            var database = client.GetDatabase(_databaseSettings.DatabaseName);
+            _featureSliderCollection = database.GetCollection<FeatureSlider>(_databaseSettings.FeatureSliderCollectionName);
+
         }
 
-        public Task DeleteFeatureSliderAsync(string id)
+        public async Task CreateFeatureSliderAsync(CreateFeatureSliderDto createFeatureSliderDto)
         {
-            throw new NotImplementedException();
+            var value = _mapper.Map<FeatureSlider>(createFeatureSliderDto);
+            await _featureSliderCollection.InsertOneAsync(value);
+
+        }
+
+        public async Task DeleteFeatureSliderAsync(string id)
+        {
+            await _featureSliderCollection.DeleteOneAsync( x=> x.FeatureSliderId==id );
+
         }
 
         public Task FeatureSliderChangeStatusToFalse(string id)
@@ -24,19 +44,22 @@ namespace MultiShop.Catalog.Services.FeatureSliderServices
             throw new NotImplementedException();
         }
 
-        public Task<List<ResultFeatureSliderDto>> GetAllFeatureSliderAsync()
+        public async Task<List<ResultFeatureSliderDto>> GetAllFeatureSliderAsync()
         {
-            throw new NotImplementedException();
+            var value = await _featureSliderCollection.Find(x => true).ToListAsync();
+            return _mapper.Map<List<ResultFeatureSliderDto>>(value);
         }
 
-        public Task<GetByIdFeatureSliderDto> GetByIdFeatureSliderAsync(string id)
+        public async Task<GetByIdFeatureSliderDto> GetByIdFeatureSliderAsync(string id)
         {
-            throw new NotImplementedException();
+            var values = await _featureSliderCollection.Find<FeatureSlider>(x => x.FeatureSliderId == id).FirstOrDefaultAsync();
+            return _mapper.Map<GetByIdFeatureSliderDto>(values);
         }
 
-        public Task UpdateFeatureSliderAsync(UpdateFeatureSliderDto updateFeatureSliderDto)
+        public async Task UpdateFeatureSliderAsync(UpdateFeatureSliderDto updateFeatureSliderDto)
         {
-            throw new NotImplementedException();
+            var values = _mapper.Map<FeatureSlider>(updateFeatureSliderDto);
+            await _featureSliderCollection.FindOneAndReplaceAsync(x => x.FeatureSliderId == updateFeatureSliderDto.FeatureSliderId, values);
         }
     }
 }
