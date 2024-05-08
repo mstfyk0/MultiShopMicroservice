@@ -90,10 +90,10 @@ namespace MultiShop.WebUI.Areas.Admin.Controllers
         [Route("updateFeatureSlider/{id}")]
         public async Task<IActionResult> UpdateFeatureSlider(string id)
         {
-            ViewBag.v0 = "Kategori İşlemleri";
+            ViewBag.v0 = "Öne Çıkan Slider Görsel İşlemleri";
             ViewBag.v1 = "Ana Sayfa";
-            ViewBag.v2 = "Kategoriler";
-            ViewBag.v3 = "Kategori Güncelleme";
+            ViewBag.v2 = "Öne Çıkan Slider Görsel";
+            ViewBag.v3 = "Öne Çıkan Slider Görsel Güncelleme";
 
 
             var client = _httpClientFactory.CreateClient();
