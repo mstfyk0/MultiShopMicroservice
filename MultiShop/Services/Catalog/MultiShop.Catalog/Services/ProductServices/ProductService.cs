@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
 using MongoDB.Driver;
 using MultiShop.Catalog.Dtos.ProductDtos;
 using MultiShop.Catalog.Entities;
@@ -55,6 +56,16 @@ namespace MultiShop.Catalog.Services.ProductServices
                 item.Category = await _categoryCollection.Find(x => x.CategoryId == item.CategoryId).FirstAsync();
             }
             return _mapper.Map<List<ResultProductsWithCategoryDto>>(values);
+        }
+        public async Task<List<ResultProductsOneCategoryDto>> GetProductsOneCategoryAsync(string id)
+        {
+           var values = await _productCollection.Find(c=> c.CategoryId==id ).ToListAsync();
+            foreach (var item in values)
+            {
+                item.Category = await _categoryCollection.Find(x => x.CategoryId == item.CategoryId).FirstAsync();
+            }
+
+            return _mapper.Map<List<ResultProductsOneCategoryDto>>(values);
         }
 
         public async Task UpdateProductAsync(UpdateProductDto updateProductDto)
