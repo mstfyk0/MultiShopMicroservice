@@ -4,7 +4,6 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using MultiShop.DtoLayer.CatalogDtos.CategoryDtos;
 using MultiShop.DtoLayer.CatalogDtos.ProductDtos;
 using Newtonsoft.Json;
-using System.Diagnostics;
 using System.Text;
 
 namespace MultiShop.WebUI.Areas.Admin.Controllers
@@ -48,7 +47,7 @@ namespace MultiShop.WebUI.Areas.Admin.Controllers
 
 
         [Route("Index")]
-        public async Task<IActionResult> ProductListWithCategory()
+        public async Task<IActionResult> Index()
         {
 
             ViewBag.v0 = "Ürün İşlemleri";
@@ -70,6 +69,34 @@ namespace MultiShop.WebUI.Areas.Admin.Controllers
             return View();
         }
 
+        [Route("productListOneCategory/{id}")]
+        public async Task<IActionResult> ProductListOneCategory([FromRoute]string id)
+        {
+
+            var client = _httpClientFactory.CreateClient();
+            var responseMessage = await client.GetAsync("https://localhost:7047/api/Products/getProductsOneCategoryAsync/" + id);
+
+           
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                var jsonData = await responseMessage.Content.ReadAsStringAsync();
+                var values = JsonConvert.DeserializeObject<List<ResultProductsOneCategoryDto>>(jsonData);
+
+                ViewBag.v0 = values.FirstOrDefault().Category.CategoryName + " Kategoriye ait ürün işlemleri";
+                ViewBag.v1 = "Ana Sayfa";
+                ViewBag.v2 = values.FirstOrDefault().Category.CategoryName + " Kategoriye ait ürünler";
+                ViewBag.v3 = values.FirstOrDefault().Category.CategoryName + " Kategoriye ait ürünler Listesi";
+
+                return View(values);
+            }
+
+            ViewBag.v0 = "Kategoriye ait ürün işlemleri";
+            ViewBag.v1 = "Ana Sayfa";
+            ViewBag.v2 = "Kategoriye ait ürünler";
+            ViewBag.v3 = "Kategoriye ait ürünler Listesi";
+
+            return View();
+        }
 
 
         [Route("CreateProduct")]
@@ -96,6 +123,44 @@ namespace MultiShop.WebUI.Areas.Admin.Controllers
                                                        }).ToList();
 
             ViewBag.CategoryValues = categorySelectList;
+            return View();
+        }
+
+        [Route("CreateProductOneCategory/{id}")]
+        public async Task<IActionResult> CreateProductOneCategory( string id)
+        {
+            var client = _httpClientFactory.CreateClient();
+            var responseMessage = await client.GetAsync("https://localhost:7047/api/categories/getCategoryById/" + id);
+
+            var jsonData = await responseMessage.Content.ReadAsStringAsync();
+
+            var values = JsonConvert.DeserializeObject<ResultCategoryDto>(jsonData);
+
+            ViewBag.v0 = values.CategoryName + " Kategoriye ait ürün ekle";
+            ViewBag.v1 = "Ana Sayfa";
+            ViewBag.v2 = values.CategoryName + " Kategoriye ait ürünler";
+            ViewBag.v3 = values.CategoryName + " Kategoriye ait ürünler ekle";
+            ViewBag.CategoryValues = values.CategoryId;
+            ViewBag.CategoryText = values.CategoryName;
+            return View();
+        }
+
+        [HttpPost]
+        [Route("CreateProductOneCategory/{id}")]
+        public async Task<IActionResult> CreateProductOneCategory(string id, CreateProductDto createProductOneCategoryDto)
+        {
+            createProductOneCategoryDto.CategoryId = id;
+            var client = _httpClientFactory.CreateClient();
+            var jsonData = JsonConvert.SerializeObject(createProductOneCategoryDto);
+            StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
+            var responsMessage = await client.PostAsync("https://localhost:7047/api/products/createProduct", content);
+
+            if (responsMessage.IsSuccessStatusCode)
+            {
+                return RedirectToAction("ProductListOneCategory", "Product", new { area = "Admin", id=id  });
+
+            }
+
             return View();
         }
 
@@ -128,6 +193,27 @@ namespace MultiShop.WebUI.Areas.Admin.Controllers
             if (responsMessage.IsSuccessStatusCode)
             {
                 return RedirectToAction("Index", "Product", new { area = "Admin" });
+
+            }
+
+            return View();
+        }
+        [Route("deleteProductForOneCategory/{id}")]
+        public async Task<IActionResult> DeleteProductForOneCategory(string id)
+        {
+
+            var client = _httpClientFactory.CreateClient();
+            var responsMessageProductDetail = await client.GetAsync("https://localhost:7047/api/products/getProductById/" + id);
+
+            var jsonData = await responsMessageProductDetail.Content.ReadAsStringAsync();
+
+            var values = JsonConvert.DeserializeObject<ResultCategoryDto>(jsonData);
+
+            var responsMessage = await client.DeleteAsync("https://localhost:7047/api/products/deleteProduct/" + id);
+
+            if (responsMessage.IsSuccessStatusCode)
+            {
+                return RedirectToAction("productListOneCategory", "Product", new { area = "Admin" ,id= values.CategoryId });
 
             }
 

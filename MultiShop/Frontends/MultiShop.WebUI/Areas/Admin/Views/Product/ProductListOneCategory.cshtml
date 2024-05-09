@@ -1,11 +1,9 @@
-﻿@model List<ResultProductsWithCategoryDto>
-
+﻿@model List<ResultProductsOneCategoryDto>
 @{
-    ViewData["Title"] = "ProductListWithCategory";
+    ViewData["Title"] = "ProductListOneCategory";
     Layout = "~/Areas/Admin/Views/AdminLayout/Index.cshtml";
-    int count = 0;
+    int count=0;
 }
-
 
 
 <div class="container-fluid pt-4 px-4">
@@ -19,8 +17,8 @@
                             <th scope="col">#</th>
                             <th scope="col">Adı</th>
                             <th scope="col">Fiyat </th>
-                            <th scope="col">Ürün Kategori</th>
                             <th scope="col">Resim</th>
+                            <th scope="col">Kategori</th>
                             @* <th scope="col">Kategoriye ait Ürünler</th> *@
                             <th scope="col">Sil</th>
                             <th scope="col">Güncelle</th>
@@ -34,20 +32,22 @@
                                 <th scope="row">@count</th>
                                 <td>@item.ProductName</td>
                                 <td>@item.ProductPrice</td>
-                                <td>@item.Category.CategoryName</td>
                                 <td>@item.ProductImageUrl</td>
+                                <td>@item.Category.CategoryName</td>
                                 @* <td><a href="#" class="btn btn-warning">Ürünleri </a></td> *@
-                                <td><a href="/admin/Product/deleteProduct/@item.ProductId" class="btn btn-danger"> Sil</a></td>
+                                <td><a href="/admin/Product/deleteProductForOneCategory/@item.ProductId" class="btn btn-danger"> Sil</a></td>
                                 <td><a href="/admin/Product/updateProduct/@item.ProductId" class="btn btn-success"> Güncelle</a></td>
                             </tr>
                         }
                     </tbody>
                 </table>
-                <td><a href="/admin/Product/createProduct" class="btn btn-primary"> Yeni Ürün ekle </a></td>
+                <table class="table table-borderless justify-content-center">
+                    <td class="text-start"><a href="/admin/product/createProductOneCategory/@Model.FirstOrDefault().CategoryId" class="btn btn-primary"> Yeni Ürün ekle </a></td>
+                    <td class="text-end"><a href="/admin/Category/Index" class="btn btn-primary text-end"> Kategoriye geri dön </a></td>
+                </table>
             </div>
         </div>
     </div>
 
 
 </div>
-

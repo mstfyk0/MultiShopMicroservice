@@ -13,6 +13,6 @@ namespace MultiShop.DtoLayer.CatalogDtos.ProductDtos
         public decimal ProductPrice { get; init; }
         public string ProductImageUrl { get; init; }
         public string ProductDescription { get; init; }
-        public string CategoryId { get; init; }
+        public string CategoryId { get; set; }
     }
 }

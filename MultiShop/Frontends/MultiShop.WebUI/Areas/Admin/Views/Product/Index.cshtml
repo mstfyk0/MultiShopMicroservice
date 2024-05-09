@@ -1,9 +1,12 @@
-﻿@model List<ResultProductDto>
+﻿@model List<ResultProductsWithCategoryDto>
+
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "ProductListWithCategory";
     Layout = "~/Areas/Admin/Views/AdminLayout/Index.cshtml";
     int count = 0;
 }
+
+
 
 <div class="container-fluid pt-4 px-4">
     <div class="col-12">
@@ -16,6 +19,7 @@
                             <th scope="col">#</th>
                             <th scope="col">Adı</th>
                             <th scope="col">Fiyat </th>
+                            <th scope="col">Ürün Kategori</th>
                             <th scope="col">Resim</th>
                             @* <th scope="col">Kategoriye ait Ürünler</th> *@
                             <th scope="col">Sil</th>
@@ -30,6 +34,7 @@
                                 <th scope="row">@count</th>
                                 <td>@item.ProductName</td>
                                 <td>@item.ProductPrice</td>
+                                <td>@item.Category.CategoryName</td>
                                 <td>@item.ProductImageUrl</td>
                                 @* <td><a href="#" class="btn btn-warning">Ürünleri </a></td> *@
                                 <td><a href="/admin/Product/deleteProduct/@item.ProductId" class="btn btn-danger"> Sil</a></td>
