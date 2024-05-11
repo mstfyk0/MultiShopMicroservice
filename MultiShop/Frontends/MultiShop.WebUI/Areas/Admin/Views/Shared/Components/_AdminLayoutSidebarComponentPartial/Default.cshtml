@@ -28,27 +28,47 @@
                     Kategoriler</a> 
         </div> 
         <div class="navbar-nav w-100">
-            <a class="nav-item nav-link" href="/admin/product/Index">
+            @* <a class="nav-item nav-link" href="/admin/product/Index">
                 <i class="fa fa-tasks" aria-hidden="true"></i>
-                    Ürünler</a>
+                    Ürün İşlemleri</a> *@
+            <div class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-tasks" aria-hidden="true"></i> Ürün İşlemleri</a>
+                <div class="dropdown-menu bg-transparent border-0">
+                    <a href="/admin/product/Index" class="dropdown-item"><i class="fa fa-tasks" aria-hidden="true"></i>  Ürünler</a>
+                    <a href="/admin/featureSlider/Index" class="dropdown-item">
+                        <i class="fa-brands fa-slideshare"></i> Öne Çıkanlar Geçiş
+                    </a>
+                    <a href="/admin/specialOffer/Index" class="dropdown-item">
+                        <i class="fa-solid fa-sitemap"></i>
+                        Özel Teklif</a>
+                    <a href="/admin/feature/Index" class="dropdown-item">
+                        <i class="fa-solid fa-star"></i>
+                        Öne Çıkan Alan</a>
+
+                    <a href="/admin/offerDiscount/Index" class="dropdown-item">
+                        <i class="fa-solid fa-tags"></i>
+                        Özel Taklif</a>
+                    @* <a href="element.html" class="dropdown-item">Other Elements</a> *@
+                </div>
+            </div>
         </div> 
         
-        <div class="navbar-nav w-100">
+        @* <div class="navbar-nav w-100">
             <a class="nav-item nav-link" href="/admin/featureSlider/Index">
                 <i class="fa-brands fa-slideshare"></i>
                     Öne Çıkanlar Geçiş</a>
-        </div>
+        </div> *@
         
-        <div class="navbar-nav w-100">
+        @* <div class="navbar-nav w-100">
             <a class="nav-item nav-link" href="/admin/specialOffer/Index">
                 <i class="fa-solid fa-sitemap"></i>
                     Özel Teklif</a>
-        </div>
-        <div class="navbar-nav w-100">
+        </div> *@
+       @*  <div class="navbar-nav w-100">
             <a class="nav-item nav-link" href="/admin/feature/Index">
                 <i class="fa-solid fa-star"></i>
                     Öne Çıkan Alan </a>
-        </div>
+        </div> *@
         
     </nav>
 </div>
