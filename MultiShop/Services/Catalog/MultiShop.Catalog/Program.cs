@@ -1,42 +1,20 @@
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.Extensions.Options;
-using MultiShop.Catalog.Services.BrandServices;
-using MultiShop.Catalog.Services.CategoryServices;
-using MultiShop.Catalog.Services.FeatureServices;
-using MultiShop.Catalog.Services.FeatureSliderServices;
-using MultiShop.Catalog.Services.OfferDiscountServices;
-using MultiShop.Catalog.Services.ProductDetailServices;
-using MultiShop.Catalog.Services.ProductImageServices;
-using MultiShop.Catalog.Services.ProductServices;
-using MultiShop.Catalog.Services.SpecialOfferServices;
-using MultiShop.Catalog.Settings;
+
+using MultiShop.Catalog.Extensions;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(opt =>
-{
-    opt.Authority = builder.Configuration["IdentityServerUrl"];
-    opt.Audience = "ResourceCatalog";
-});
+//burasý extension sýnýfýna taþýndý.
+builder.Services.ConfigureAuthentication(builder.Configuration);
 
-builder.Services.Configure<DatabaseSettings>(builder.Configuration.GetSection("DatabaseSettings"));
 
-builder.Services.AddScoped<IDatabaseSettings>(sp =>
-{
-    return sp.GetRequiredService<IOptions<DatabaseSettings>>().Value;
-});
+//burasý serivce extension sýnýfýna taþýndý.
+builder.Services.ConfigureDatabaseSettings(builder.Configuration);  
 
 // Add services to the container.
-builder.Services.AddScoped<ICategoryService, CategoryService>();
-builder.Services.AddScoped<IProductService, ProductService>();
-builder.Services.AddScoped<IProductDetailService, ProductDetailService>();
-builder.Services.AddScoped<IProductImageService, ProductImageService>();
-builder.Services.AddScoped<IFeatureSliderService, FeatureSliderService>();
-builder.Services.AddScoped<ISpecialOfferService, SpecialOfferService>();
-builder.Services.AddScoped<IFeatureService, FeatureService>();
-builder.Services.AddScoped<IOfferDiscountService, OfferDiscountService>();
-builder.Services.AddScoped<IBrandService, BrandService>();
+//Burasý extension sýnýfa taþýndý.
+builder.Services.ConfigureServiceRegistration();
+
 
 //Automapper 13 versiyon ve dependencyinjection 12.0 versyionu ile programcs e register yapmaya gerek kalmýor.
 builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());

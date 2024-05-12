@@ -1,0 +1,43 @@
+﻿@model UpdateAboutDto
+
+@{
+    ViewData["Title"] = "UpdateAbout";
+    Layout = "~/Areas/Admin/Views/AdminLayout/Index.cshtml" ;
+}
+
+
+<div class="container-fluid pt-4 px-4">
+    <div class="col-12">
+        <div class="bg-secondary rounded h-100 p-4">
+            <h6 class="mb-4">Hakkımda Güncelleme Sayfası</h6>
+            <div class="table-responsive">
+
+                <form method="post">
+                    <input type="hidden" class="form-control" asp-for="AboutId" />
+
+                    <label>
+                        Açıklama
+                    </label>
+                    <input type="text" class="form-control" asp-for="AboutDescription" />
+                    <label>
+                        Adres
+                    </label>
+                    <input type="text" class="form-control" asp-for="AboutAddress" />
+                    <label>
+                         Email
+                    </label>
+                    <input type="text" class="form-control" asp-for="AboutEmail" />
+                    <label>
+                         Telefon
+                    </label>
+                    <input type="text" class="form-control" asp-for="AboutPhone" />
+                    <div class=" pt-2">
+                        <button class="btn btn-primary"> Güncelle </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
