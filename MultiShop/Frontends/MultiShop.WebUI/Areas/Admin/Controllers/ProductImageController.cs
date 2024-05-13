@@ -28,13 +28,13 @@ namespace MultiShop.WebUI.Areas.Admin.Controllers
 
 
             var client = _httpClientFactory.CreateClient();
-            var responsMessage = await client.GetAsync("https://localhost:7047/apiProductImages/getByProductIdProductImages/" + id);
+            var responsMessage = await client.GetAsync("https://localhost:7047/api/ProductImages/getByProductIdProductImages/" + id);
 
 
             if (responsMessage.IsSuccessStatusCode)
             {
                 var jsonData = await responsMessage.Content.ReadAsStringAsync();
-                var values = JsonConvert.DeserializeObject<UpdateProductImageDto>(jsonData);
+                var values = JsonConvert.DeserializeObject<List<UpdateProductImageDto>>(jsonData);
                 return View(values);
             }
 
