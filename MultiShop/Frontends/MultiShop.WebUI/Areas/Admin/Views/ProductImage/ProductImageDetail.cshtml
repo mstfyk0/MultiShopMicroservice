@@ -1,8 +1,9 @@
-﻿@model List<UpdateProductImageDto>
+﻿@model List<GetByIdProductImageDto>
 
 @{
     ViewData["Title"] = "ProductImageDetail";
     Layout = "~/Areas/Admin/Views/AdminLayout/Index.cshtml";
+    int count = 1;
 }
 
 
@@ -11,21 +12,22 @@
         <div class="bg-secondary rounded h-100 p-4">
             <h6 class="mb-4">Ürün Görsel Güncelle</h6>
             <div class="table-responsive">
-
-
                 <form method="post">
-                    @foreach (var item in Model)
+                    @for (int i = 0; i < Model.Count; i++)
                     {
-                        <input type="hidden" readonly class="form-control" asp-for="@item.ProductImageId" />
-                        <label>
-                            Görsel 
+                        <input type="hidden" asp-for="@Model[i].ProductImageId" />
+                        <input type="hidden" asp-for="@Model[i].ProductId" />
+                        <label> 
+                            Görsel @count
                         </label>
-                        <input type="text" class="form-control" asp-for="@item.Image" />
+                        count++;
+                        <input type="text" class="form-control" asp-for="@Model[i].Image" />
 
-                        <div class=" pt-2">
-                            <button class="btn btn-primary"> Güncelle </button>
-                        </div>
+
                     }
+                    <div class=" pt-2">
+                        <button class="btn btn-primary" > Güncelle </button>
+                    </div>
                 </form>
             </div>
         </div>

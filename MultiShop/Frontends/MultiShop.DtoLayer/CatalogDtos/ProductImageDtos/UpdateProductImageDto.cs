@@ -1,9 +1,9 @@
 ﻿namespace MultiShop.DtoLayer.CatalogDtos.ProductImageDtos
 {
-    public record UpdateProductImageDto
+    public class UpdateProductImageDto
     {
-        public string ProductImageId { get; init; }
-        public string Image { get; init; }
-        public string ProductId { get; init; }
+        public string ProductImageId { get; set; }
+        public string Image { get; set; }
+        public string ProductId { get; set; }
     }
 }

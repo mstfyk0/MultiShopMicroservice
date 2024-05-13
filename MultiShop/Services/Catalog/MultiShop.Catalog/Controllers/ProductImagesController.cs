@@ -58,5 +58,12 @@ namespace MultiShop.Catalog.Controllers
             await _productImageService.UpdateProductImageAsync(updateProductImageDto);
             return Ok("Ürün görselleri başarıyla güncellendi.");
         }
+        
+        [HttpPut("updateListProductImage")]
+        public async Task<IActionResult> UpdateListProductImage([FromBody]  List<UpdateProductImageDto> updateProductImageDto)
+        {
+            await _productImageService.UpdateListProductImageAsync(updateProductImageDto);
+            return Ok("Ürün görselleri başarıyla güncellendi.");
+        }
     }
 }

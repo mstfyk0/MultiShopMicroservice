@@ -34,23 +34,21 @@ namespace MultiShop.WebUI.Areas.Admin.Controllers
             if (responsMessage.IsSuccessStatusCode)
             {
                 var jsonData = await responsMessage.Content.ReadAsStringAsync();
-                var values = JsonConvert.DeserializeObject<List<UpdateProductImageDto>>(jsonData);
+                var values = JsonConvert.DeserializeObject<List<GetByIdProductImageDto>>(jsonData);
                 return View(values);
             }
 
             return View();
         }
 
-
-        [HttpPost]
-        [Route("productImageDetail/{id}")]
-        public async Task<IActionResult> ProductImageDetail(UpdateProductImageDto updateCategoryDto)
+        [HttpPost("productImageDetail/{id}")]
+        public async Task<IActionResult> ProductImageDetail(List<UpdateProductImageDto> updateCategoryDto)
         {
 
             var client = _httpClientFactory.CreateClient();
             var jsonData = JsonConvert.SerializeObject(updateCategoryDto);
             StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
-            var responsMessage = await client.PutAsync("https://localhost:7047/api/ProductImages/updateProductImage", content);
+            var responsMessage = await client.PutAsync("https://localhost:7047/api/ProductImages/updateListProductImage", content);
 
             if (responsMessage.IsSuccessStatusCode)
             {
