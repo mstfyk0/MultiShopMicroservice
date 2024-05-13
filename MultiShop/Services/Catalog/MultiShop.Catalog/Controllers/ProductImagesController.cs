@@ -5,7 +5,8 @@ using MultiShop.Catalog.Services.ProductImageServices;
 
 namespace MultiShop.Catalog.Controllers
 {
-    [Authorize]
+    //[Authorize]
+    [AllowAnonymous]
     [ApiController]
     [Route("api/[controller]")]
     public class ProductImagesController : ControllerBase
@@ -17,35 +18,41 @@ namespace MultiShop.Catalog.Controllers
             _productImageService = productImageService;
         }
 
-        [HttpGet]
+        [HttpGet("productImageDetailList")]
         public async Task<IActionResult> ProductImageDetailList()
         {
             var values = await _productImageService.GetAllProductImageAsync();
             return Ok(values);
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("getProductImageById/{id}")]
         public async Task<IActionResult> GetProductImageById([FromRoute] string id)
         {
             var values = await _productImageService.GetByIdProductImageAsync(id);
             return Ok(values);
         }
+        [HttpGet("getByProductIdProductImages/{id}")]
+        public async Task<IActionResult> GetProductIdProductImages([FromRoute] string id)
+        {
+            var values = await _productImageService.GetByProductIdProductImageAsync(id);
+            return Ok(values);
+        }
 
-        [HttpPost]
+        [HttpPost("createProductImage")]
         public async Task<IActionResult> CreateProductImage([FromBody] CreateProductImageDto createProductImageDto)
         {
             await _productImageService.CreateProductImageAsync(createProductImageDto);
             return Ok("Ürün görselleri başarıyla eklendi.");
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete("deteleProductImage/{id}")]
         public async Task<IActionResult> DeteleProductImage([FromRoute] string id)
         {
             await _productImageService.DeleteProductImageAsync(id);
             return Ok("Ürün görselleri başarıyla silindi.");
         }
 
-        [HttpPut]
+        [HttpPut("updateProductImage")]
         public async Task<IActionResult> UpdateProductImage([FromBody] UpdateProductImageDto updateProductImageDto)
         {
             await _productImageService.UpdateProductImageAsync(updateProductImageDto);

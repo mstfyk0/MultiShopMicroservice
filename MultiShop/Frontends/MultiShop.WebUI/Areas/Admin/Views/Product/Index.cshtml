@@ -24,6 +24,7 @@
                             @* <th scope="col">Kategoriye ait Ürünler</th> *@
                             <th scope="col">Sil</th>
                             <th scope="col">Güncelle</th>
+                            <th scope="col">Ürün Görselleri</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -39,6 +40,7 @@
                                 @* <td><a href="#" class="btn btn-warning">Ürünleri </a></td> *@
                                 <td><a href="/admin/Product/deleteProduct/@item.ProductId" class="btn btn-danger"> Sil</a></td>
                                 <td><a href="/admin/Product/updateProduct/@item.ProductId" class="btn btn-success"> Güncelle</a></td>
+                                <td><a href="/admin/ProductImage/ProductImageDetail/@item.ProductId" class="btn btn-success"> Ürün Görselleri</a></td>
                             </tr>
                         }
                     </tbody>
