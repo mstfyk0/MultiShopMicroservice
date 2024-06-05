@@ -8,7 +8,7 @@ namespace MultiShop.WebUI.Areas.Admin.Controllers
 {
     [AllowAnonymous]
     [Area("Admin")]
-    [Route("Admin/About")]
+    [Route("Admin/ProductDetail")]
     public class ProductDetailController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;
@@ -18,6 +18,7 @@ namespace MultiShop.WebUI.Areas.Admin.Controllers
             _httpClientFactory = httpClientFactory;
         }
 
+        [HttpGet]
         [Route("updateProductDetail/{id}")]
         public async Task<IActionResult> UpdateProductDetail(string id)
         {
@@ -28,7 +29,7 @@ namespace MultiShop.WebUI.Areas.Admin.Controllers
 
 
             var client = _httpClientFactory.CreateClient();
-            var responsMessage = await client.GetAsync("https://localhost:7047/api/productdetails/getProductDetailById/" + id);
+            var responsMessage = await client.GetAsync("https://localhost:7047/api/productdetails/getProductDetailByProductId/" + id);
 
 
             if (responsMessage.IsSuccessStatusCode)
@@ -54,7 +55,7 @@ namespace MultiShop.WebUI.Areas.Admin.Controllers
 
             if (responsMessage.IsSuccessStatusCode)
             {
-                return RedirectToAction("Index", "ProductDetail", new { area = "Admin" });
+                return RedirectToAction("Index", "Product", new { area = "Admin" });
 
             }
             return View();

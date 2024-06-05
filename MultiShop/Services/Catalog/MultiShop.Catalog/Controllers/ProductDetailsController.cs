@@ -5,7 +5,8 @@ using MultiShop.Catalog.Services.ProductDetailServices;
 
 namespace MultiShop.Catalog.Controllers
 {
-    [Authorize]
+    //[Authorize]
+    [AllowAnonymous]
     [ApiController]
     [Route("api/[controller]")]
     public class ProductDetailsController : ControllerBase
@@ -30,6 +31,13 @@ namespace MultiShop.Catalog.Controllers
             var values = await _productDetailService.GetByIdProductDetailAsync(id);
             return Ok(values);
         }
+        
+        [HttpGet("getProductDetailByProductId/{id}")]
+        public async Task<IActionResult> GetProductDetailByProductId([FromRoute] string id)
+        {
+            var values = await _productDetailService.GetProductDetailByProductIdAsync(id);
+            return Ok(values);
+        }
 
         [HttpPost]
         public async Task<IActionResult> CreateProductDetail([FromBody] CreateProductDetailDto createProductDetailDto)
@@ -45,7 +53,7 @@ namespace MultiShop.Catalog.Controllers
             return Ok("Ürün detayı başarıyla silindi.");
         }
 
-        [HttpPut("/updateProductDetail")]
+        [HttpPut("updateProductDetail")]
         public async Task<IActionResult> UpdateProductDetail([FromBody] UpdateProductDetailDto updateProductDetailDto)
         {
             await _productDetailService.UpdateProductDetailAsync(updateProductDetailDto);
