@@ -24,7 +24,7 @@ namespace MultiShop.Catalog.Controllers
             return Ok(values);
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("getProductDetailById/{id}")]
         public async Task<IActionResult> GetProductDetailById([FromRoute] string id)
         {
             var values = await _productDetailService.GetByIdProductDetailAsync(id);
@@ -45,7 +45,7 @@ namespace MultiShop.Catalog.Controllers
             return Ok("Ürün detayı başarıyla silindi.");
         }
 
-        [HttpPut]
+        [HttpPut("/updateProductDetail")]
         public async Task<IActionResult> UpdateProductDetail([FromBody] UpdateProductDetailDto updateProductDetailDto)
         {
             await _productDetailService.UpdateProductDetailAsync(updateProductDetailDto);
