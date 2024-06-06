@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8ED3964B-7F1C-4950-9604-266ACEAF09C8}|Services\\Comment\\MultiShop.Comment\\MultiShop.Comment.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\services\\comment\\multishop.comment\\entities\\usercomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ED3964B-7F1C-4950-9604-266ACEAF09C8}|Services\\Comment\\MultiShop.Comment\\MultiShop.Comment.csproj|solutionrelative:services\\comment\\multishop.comment\\entities\\usercomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8ED3964B-7F1C-4950-9604-266ACEAF09C8}|Services\\Comment\\MultiShop.Comment\\MultiShop.Comment.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\services\\comment\\multishop.comment\\controllers\\commentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED3964B-7F1C-4950-9604-266ACEAF09C8}|Services\\Comment\\MultiShop.Comment\\MultiShop.Comment.csproj|solutionrelative:services\\comment\\multishop.comment\\controllers\\commentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED3964B-7F1C-4950-9604-266ACEAF09C8}|Services\\Comment\\MultiShop.Comment\\MultiShop.Comment.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\services\\comment\\multishop.comment\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8ED3964B-7F1C-4950-9604-266ACEAF09C8}|Services\\Comment\\MultiShop.Comment\\MultiShop.Comment.csproj|solutionrelative:services\\comment\\multishop.comment\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED3964B-7F1C-4950-9604-266ACEAF09C8}|Services\\Comment\\MultiShop.Comment\\MultiShop.Comment.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\services\\comment\\multishop.comment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED3964B-7F1C-4950-9604-266ACEAF09C8}|Services\\Comment\\MultiShop.Comment\\MultiShop.Comment.csproj|solutionrelative:services\\comment\\multishop.comment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CAC6F8F-1F7F-4404-91B4-7B60F02DE981}|Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\services\\catalog\\multishop.catalog\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9CAC6F8F-1F7F-4404-91B4-7B60F02DE981}|Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj|solutionrelative:services\\catalog\\multishop.catalog\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8ED3964B-7F1C-4950-9604-266ACEAF09C8}|Services\\Comment\\MultiShop.Comment\\MultiShop.Comment.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\services\\comment\\multishop.comment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{8ED3964B-7F1C-4950-9604-266ACEAF09C8}|Services\\Comment\\MultiShop.Comment\\MultiShop.Comment.csproj|solutionrelative:services\\comment\\multishop.comment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8ED3964B-7F1C-4950-9604-266ACEAF09C8}|Services\\Comment\\MultiShop.Comment\\MultiShop.Comment.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\services\\comment\\multishop.comment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ED3964B-7F1C-4950-9604-266ACEAF09C8}|Services\\Comment\\MultiShop.Comment\\MultiShop.Comment.csproj|solutionrelative:services\\comment\\multishop.comment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CEDB0A8F-CD24-4104-91B6-AA195C6D445D}|Services\\Cargo\\MultiShop.Cargo.DataAccessLayer\\MultiShop.Cargo.DataAccessLayer.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\services\\cargo\\multishop.cargo.dataaccesslayer\\concrete\\cargocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEDB0A8F-CD24-4104-91B6-AA195C6D445D}|Services\\Cargo\\MultiShop.Cargo.DataAccessLayer\\MultiShop.Cargo.DataAccessLayer.csproj|solutionrelative:services\\cargo\\multishop.cargo.dataaccesslayer\\concrete\\cargocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED3964B-7F1C-4950-9604-266ACEAF09C8}|Services\\Comment\\MultiShop.Comment\\MultiShop.Comment.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\services\\comment\\multishop.comment\\entities\\usercomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED3964B-7F1C-4950-9604-266ACEAF09C8}|Services\\Comment\\MultiShop.Comment\\MultiShop.Comment.csproj|solutionrelative:services\\comment\\multishop.comment\\entities\\usercomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED3964B-7F1C-4950-9604-266ACEAF09C8}|Services\\Comment\\MultiShop.Comment\\MultiShop.Comment.csproj|c:\\users\\mstyg\\source\\repos\\aspnetcoremultishopmikroserviseticaretkursu\\multishop\\services\\comment\\multishop.comment\\context\\commentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED3964B-7F1C-4950-9604-266ACEAF09C8}|Services\\Comment\\MultiShop.Comment\\MultiShop.Comment.csproj|solutionrelative:services\\comment\\multishop.comment\\context\\commentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,32 +42,19 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserComment.cs",
-              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Comment\\MultiShop.Comment\\Entities\\UserComment.cs",
-              "RelativeDocumentMoniker": "Services\\Comment\\MultiShop.Comment\\Entities\\UserComment.cs",
-              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Comment\\MultiShop.Comment\\Entities\\UserComment.cs",
-              "RelativeToolTip": "Services\\Comment\\MultiShop.Comment\\Entities\\UserComment.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T13:51:41.947Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Comment\\MultiShop.Comment\\appsettings.json",
-              "RelativeDocumentMoniker": "Services\\Comment\\MultiShop.Comment\\appsettings.json",
-              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Comment\\MultiShop.Comment\\appsettings.json",
-              "RelativeToolTip": "Services\\Comment\\MultiShop.Comment\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAVAAAA",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Catalog\\MultiShop.Catalog\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Services\\Catalog\\MultiShop.Catalog\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Catalog\\MultiShop.Catalog\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Services\\Catalog\\MultiShop.Catalog\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-05T13:50:39.548Z",
+              "WhenOpened": "2024-06-06T16:36:30.846Z",
               "EditorCaption": ""
             },
             {
@@ -58,9 +65,87 @@
               "RelativeDocumentMoniker": "Services\\Comment\\MultiShop.Comment\\Program.cs",
               "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Comment\\MultiShop.Comment\\Program.cs",
               "RelativeToolTip": "Services\\Comment\\MultiShop.Comment\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T13:50:38.349Z",
+              "WhenOpened": "2024-06-06T16:35:23.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Comment\\MultiShop.Comment\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Services\\Comment\\MultiShop.Comment\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Comment\\MultiShop.Comment\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Services\\Comment\\MultiShop.Comment\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-06T16:30:34.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CommentsController.cs",
+              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Comment\\MultiShop.Comment\\Controllers\\CommentsController.cs",
+              "RelativeDocumentMoniker": "Services\\Comment\\MultiShop.Comment\\Controllers\\CommentsController.cs",
+              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Comment\\MultiShop.Comment\\Controllers\\CommentsController.cs",
+              "RelativeToolTip": "Services\\Comment\\MultiShop.Comment\\Controllers\\CommentsController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAgwCQAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T16:14:38.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CargoContext.cs",
+              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Cargo\\MultiShop.Cargo.DataAccessLayer\\Concrete\\CargoContext.cs",
+              "RelativeDocumentMoniker": "Services\\Cargo\\MultiShop.Cargo.DataAccessLayer\\Concrete\\CargoContext.cs",
+              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Cargo\\MultiShop.Cargo.DataAccessLayer\\Concrete\\CargoContext.cs",
+              "RelativeToolTip": "Services\\Cargo\\MultiShop.Cargo.DataAccessLayer\\Concrete\\CargoContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T15:31:29.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CommentContext.cs",
+              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Comment\\MultiShop.Comment\\Context\\CommentContext.cs",
+              "RelativeDocumentMoniker": "Services\\Comment\\MultiShop.Comment\\Context\\CommentContext.cs",
+              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Comment\\MultiShop.Comment\\Context\\CommentContext.cs",
+              "RelativeToolTip": "Services\\Comment\\MultiShop.Comment\\Context\\CommentContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T15:30:31.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserComment.cs",
+              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Comment\\MultiShop.Comment\\Entities\\UserComment.cs",
+              "RelativeDocumentMoniker": "Services\\Comment\\MultiShop.Comment\\Entities\\UserComment.cs",
+              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Comment\\MultiShop.Comment\\Entities\\UserComment.cs",
+              "RelativeToolTip": "Services\\Comment\\MultiShop.Comment\\Entities\\UserComment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T13:51:41.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Comment\\MultiShop.Comment\\appsettings.json",
+              "RelativeDocumentMoniker": "Services\\Comment\\MultiShop.Comment\\appsettings.json",
+              "ToolTip": "C:\\Users\\mstyg\\source\\repos\\AspNetCoreMultiShopMikroservisETicaretKursu\\MultiShop\\Services\\Comment\\MultiShop.Comment\\appsettings.json",
+              "RelativeToolTip": "Services\\Comment\\MultiShop.Comment\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-05T13:50:39.548Z",
               "EditorCaption": ""
             }
           ]
