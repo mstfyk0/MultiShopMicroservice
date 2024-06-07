@@ -18,6 +18,7 @@ namespace MultiShop.WebUI.Areas.Admin.Controllers
             _httpClientFactory = httpClientFactory;
         }
 
+        [HttpGet]
         [Route("Index")]
         public async Task<IActionResult> Index()
         {
@@ -28,7 +29,7 @@ namespace MultiShop.WebUI.Areas.Admin.Controllers
             ViewBag.v3 = "Yorum Listesi";
 
             var client = _httpClientFactory.CreateClient();
-            var responseMessage = await client.GetAsync("https://localhost:7053/api/comments/getAllComment");
+            var responseMessage = await client.GetAsync("https://localhost:7053/api/comments/GetAll");
 
 
             if (responseMessage.IsSuccessStatusCode)
@@ -41,12 +42,13 @@ namespace MultiShop.WebUI.Areas.Admin.Controllers
             return View();
         }
 
-        [Route("delete/{id}")]
-        public async Task<IActionResult> Delete(string id)
+        [HttpDelete]
+        [Route("deleteComment/{id}")]
+        public async Task<IActionResult> DeleteComment(string id)
         {
 
             var client = _httpClientFactory.CreateClient();
-            var responsMessage = await client.DeleteAsync("https://localhost:7053/api/comments/deleteComment/" + id);
+            var responsMessage = await client.DeleteAsync("https://localhost:7053/api/comments/Delete/" + id);
 
             if (responsMessage.IsSuccessStatusCode)
             {
@@ -57,9 +59,10 @@ namespace MultiShop.WebUI.Areas.Admin.Controllers
             return View();
         }
 
-        [Route("update/{id}")]
-        public async Task<IActionResult> Update(string id)
-        {
+        [HttpGet]
+        [Route("UpdateComment/{id}")]
+        public async Task<IActionResult> UpdateComment(string id)
+            {
             ViewBag.v0 = "Yorum İşlemleri";
             ViewBag.v1 = "Ana Sayfa";
             ViewBag.v2 = "Yorumler";
@@ -67,7 +70,7 @@ namespace MultiShop.WebUI.Areas.Admin.Controllers
 
 
             var client = _httpClientFactory.CreateClient();
-            var responsMessage = await client.GetAsync("https://localhost:7053/api/comments/getCommentById/" + id);
+            var responsMessage = await client.GetAsync("https://localhost:7053/api/comments/GetCommentById/" + id);
 
 
             if (responsMessage.IsSuccessStatusCode)
@@ -82,14 +85,14 @@ namespace MultiShop.WebUI.Areas.Admin.Controllers
 
 
         [HttpPost]
-        [Route("updateComment/{id}")]
+        [Route("UpdateComment/{id}")]
         public async Task<IActionResult> UpdateComment(UpdateCommentDto updateCommentDto)
         {
 
             var client = _httpClientFactory.CreateClient();
             var jsonData = JsonConvert.SerializeObject(updateCommentDto);
             StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
-            var responsMessage = await client.PutAsync("https://localhost:7053/api/comments/updateComment", content);
+            var responsMessage = await client.PutAsync("https://localhost:7053/api/comments/Update", content);
 
             if (responsMessage.IsSuccessStatusCode)
             {

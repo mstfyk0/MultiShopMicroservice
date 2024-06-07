@@ -6,8 +6,8 @@ using MultiShop.Comment.Entities;
 namespace MultiShop.Comment.Controllers
 {
     [AllowAnonymous]
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     //[Authorize]
     public class CommentsController : ControllerBase
     {
@@ -18,31 +18,31 @@ namespace MultiShop.Comment.Controllers
             _context = context;
         }
 
-        [HttpGet]
-        public IActionResult GetCommentList()
+        [HttpGet("GetAll")]
+        public IActionResult GetAll()
         {
             var values = _context.UserCommnets.ToList();
             return Ok(values);
         }
 
-        [HttpGet("GetOneCommentById/{id}")]
-        public IActionResult GetOneCommentById(int id)
+        [HttpGet("GetCommentById/{id}")]
+        public IActionResult GetCommentById(int id)
         {
             var values = _context.UserCommnets.Find(id);
             return Ok(values);
         }
 
 
-        [HttpPost]
-        public IActionResult CreateCommand([FromBody]UserComment userComment)
+        [HttpPost("Create")]
+        public IActionResult Create([FromBody] UserComment userComment)
         {
             _context.UserCommnets.Add(userComment); 
             _context.SaveChanges();
             return Ok("Yorum başarıyla eklendi");
         }
 
-        [HttpPut]
-        public IActionResult UpdateCommand([FromBody] UserComment userComment)
+        [HttpPut("Update")]
+        public IActionResult Update([FromBody] UserComment userComment)
         {
             _context.UserCommnets.Update(userComment);
             _context.SaveChanges();
@@ -50,8 +50,8 @@ namespace MultiShop.Comment.Controllers
         }
 
 
-        [HttpDelete("{id}")]
-        public IActionResult DeleteCommand(int id)
+        [HttpDelete("delete/{id}")]
+        public IActionResult Delete(int id)
         {
             var value = _context.UserCommnets.Find(id);
             _context.UserCommnets.Remove(value);
