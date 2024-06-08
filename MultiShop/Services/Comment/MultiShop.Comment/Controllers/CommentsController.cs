@@ -32,6 +32,13 @@ namespace MultiShop.Comment.Controllers
             return Ok(values);
         }
 
+        [HttpGet("GetCommentListByProductId/{id}")]
+        public IActionResult GetCommentListByProductId(string id)
+        {
+            var value = _context.UserCommnets.Where(x=>x.ProductId==id).ToList();
+            return Ok(value);   
+        }
+
 
         [HttpPost("Create")]
         public IActionResult Create([FromBody] UserComment userComment)
