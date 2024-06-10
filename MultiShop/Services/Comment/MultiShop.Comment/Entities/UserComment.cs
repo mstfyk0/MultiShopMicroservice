@@ -13,5 +13,6 @@ namespace MultiShop.Comment.Entities
         public DateTime CreatedDate { get; set; }
         public bool Status { get; set; }
         public string ProductId { get; set; }
+        
     }
 }

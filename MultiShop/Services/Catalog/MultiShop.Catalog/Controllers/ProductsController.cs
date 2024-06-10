@@ -43,6 +43,11 @@ namespace MultiShop.Catalog.Controllers
         public async Task<IActionResult> GetProductById([FromRoute]string id)
         {
             var values = await _productService.GetByIdProductAsync(id);
+            if(values is null)
+            {
+                return Ok(null);
+            }
+
             return Ok(values);
         }
 

@@ -12,10 +12,12 @@ namespace MultiShop.Comment.Controllers
     public class CommentsController : ControllerBase
     {
         private readonly CommentContext _context;
+        private readonly IHttpClientFactory _httpClientFactory;
 
-        public CommentsController(CommentContext context)
+        public CommentsController(CommentContext context, IHttpClientFactory httpClientFactory)
         {
             _context = context;
+            _httpClientFactory = httpClientFactory;
         }
 
         [HttpGet("GetAll")]
@@ -33,9 +35,18 @@ namespace MultiShop.Comment.Controllers
         }
 
         [HttpGet("GetCommentListByProductId/{id}")]
-        public IActionResult GetCommentListByProductId(string id)
+        public async Task<IActionResult> GetCommentListByProductId(string id)
         {
             var value = _context.UserCommnets.Where(x=>x.ProductId==id).ToList();
+
+            var client = _httpClientFactory.CreateClient();
+            var responseMessage = await client.GetAsync("https://localhost:7047/api/products/GetProductById/"+id);
+
+
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                var values = await responseMessage.Content.ReadAsStringAsync();
+            }
             return Ok(value);   
         }
 
@@ -61,9 +72,13 @@ namespace MultiShop.Comment.Controllers
         public IActionResult Delete(int id)
         {
             var value = _context.UserCommnets.Find(id);
-            _context.UserCommnets.Remove(value);
-            _context.SaveChanges();
-            return Ok("Yorum başarıyla silindi");
+            if (value is not null)
+            {
+                _context.UserCommnets.Remove(value);
+                _context.SaveChanges();
+                return Ok("Yorum başarıyla silindi");
+            }
+            return Ok(null);
         }
 
     }

@@ -43,12 +43,12 @@ namespace MultiShop.WebUI.Areas.Admin.Controllers
         }
 
         [HttpDelete]
-        [Route("deleteComment/{id}")]
-        public async Task<IActionResult> DeleteComment(string id)
+        [Route("delete/{id}")]
+        public async Task<IActionResult> Delete(int id)
         {
 
             var client = _httpClientFactory.CreateClient();
-            var responsMessage = await client.DeleteAsync("https://localhost:7053/api/comments/Delete/" + id);
+            var responsMessage = await client.DeleteAsync("https://localhost:7053/api/comments/delete/" + id);
 
             if (responsMessage.IsSuccessStatusCode)
             {
@@ -61,7 +61,7 @@ namespace MultiShop.WebUI.Areas.Admin.Controllers
 
         [HttpGet]
         [Route("UpdateComment/{id}")]
-        public async Task<IActionResult> UpdateComment(string id)
+        public async Task<IActionResult> UpdateComment(int id)
             {
             ViewBag.v0 = "Yorum İşlemleri";
             ViewBag.v1 = "Ana Sayfa";
